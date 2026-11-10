@@ -1,0 +1,103 @@
+<section class="chapter" id="ch12">
+<header class="ch-head">
+  <div class="ch-num">12</div>
+  <div class="ch-kicker">Part IV · Stars</div>
+  <h1>Surveying the Stars</h1>
+  <div class="bigq">Big question: How do we measure luminosity, temperature, mass and size of points of light, and what pattern do they reveal?</div>
+  <div class="ch-tags"><span class="hot">Module 4 · Week 7</span><span>L12: From observed to intrinsic stellar properties</span><span>Section: Gaia's stellar inventory</span><span>Reading due Oct 14</span><span>Book pp. 309–332</span><span class="hw">HW 1 #2 worked · p. {{page:go12}}</span></div>
+</header>
+
+<div class="context">
+  <div class="before"><h4>Coming in with</h4>Angles and parallax (Ch. 2); Newton's Kepler 3 (Ch. 4); Wien, Stefan–Boltzmann and spectra (Ch. 5); the Sun as a reference star (Ch. 11).</div>
+  <div><h4>This chapter</h4>Turning <em>observed</em> quantities (brightness, color, spectrum, orbit) into <em>intrinsic</em> ones (luminosity, temperature, mass, radius). The <b>H–R diagram</b>, the meaning of the <b>main sequence</b>, and dating clusters.</div>
+  <div class="after"><h4>Leads to</h4>Stellar life cycles, read as tracks across the H–R diagram (Ch. 13–14); standard candles and the distance ladder (Ch. 16).</div>
+</div>
+
+<h2><span class="k">12.1</span> Measuring the properties of stars</h2>
+<div class="fr">
+  <figure style="margin-top:0"><img src="figs/ch12_gaia_hr.svg"><figcaption><b>A real H–R diagram</b> from ESA's Gaia DR3 (queried for this guide): 40,000 stars within 100 pc with precise parallaxes. Color is a thermometer (left = hot/blue, right = cool/red) and absolute magnitude measures luminosity. Most stars fall on the <b>main sequence</b>; white dwarfs form a separate sequence below it. Giants are rare nearby because they're short-lived.</figcaption></figure>
+</div>
+<p><b>Luminosity</b> L is the total power a star emits (watts, or in L<sub>☉</sub>). <b>Apparent brightness</b> b is what arrives per m² at Earth. They're linked by the <b>inverse square law</b>: light spreads over a sphere of area 4πd², so b = L/(4πd²). To get L we need b (easy, via photometry) and the <b>distance</b> (hard).</p>
+<p><b>Distance from stellar parallax:</b> as Earth orbits, a nearby star shifts against distant background stars. Half the total shift is the <b>parallax angle p</b>, and d (in parsecs) = 1/p (in arcseconds); 1 pc = 3.26 ly. Even Proxima Centauri has p = 0.77″. <b>Gaia</b> measures parallaxes to ~0.02 milliarcseconds for 1.5 billion stars, revolutionizing the field.</p>
+<p><b>Magnitudes</b> (the astronomers' brightness scale, from Hipparchus): <em>smaller is brighter</em>, and 5 magnitudes = a factor of <b>100</b> in brightness. Apparent magnitude m is how bright a star looks; <b>absolute magnitude M</b> is how bright it would look from 10 pc, so M measures luminosity.</p>
+<p><b>Temperature from color or spectrum.</b> Hotter stars are bluer (Wien) and show different absorption lines. The <b>spectral sequence OBAFGKM</b> runs from hottest to coolest, with subclasses 0–9 (the Sun is <b>G2</b>). The different lines come from <b>temperature, not composition</b>: almost all stars are ~¾ H and ¼ He.</p>
+<div class="fl"><figure style="margin-top:0"><img src="figs/ch12_parallax.svg"><figcaption><b>Stellar parallax</b> (angle hugely exaggerated). Observe six months apart; half the apparent shift against far-away stars is p. At 1 pc, p = 1″.</figcaption></figure></div>
+<div class="clear"></div>
+<table class="t">
+  <tr><th>Type</th><th>Surface T (K)</th><th>Color</th><th class="num">Main-seq. mass (M<sub>☉</sub>)</th><th class="num">Luminosity (L<sub>☉</sub>)</th><th class="num">Main-seq. lifetime</th><th class="num">Share of stars</th><th>Examples</th></tr>
+  <tr><td><b>O</b></td><td>&gt; 30,000</td><td>blue-violet</td><td class="num">20–100+</td><td class="num">10<sup>5</sup>–10<sup>6</sup></td><td class="num">~3–10 Myr</td><td class="num">0.00003%</td><td>stars of Orion's belt</td></tr>
+  <tr><td><b>B</b></td><td>10,000–30,000</td><td>blue-white</td><td class="num">3–20</td><td class="num">10²–10<sup>5</sup></td><td class="num">10–300 Myr</td><td class="num">0.1%</td><td>Spica, Rigel (supergiant)</td></tr>
+  <tr><td><b>A</b></td><td>7,500–10,000</td><td>white</td><td class="num">1.6–3</td><td class="num">5–100</td><td class="num">0.3–2 Gyr</td><td class="num">0.6%</td><td>Sirius A, Vega</td></tr>
+  <tr><td><b>F</b></td><td>6,000–7,500</td><td>yellow-white</td><td class="num">1.1–1.6</td><td class="num">1.5–5</td><td class="num">2–7 Gyr</td><td class="num">3%</td><td>Procyon A, Polaris (supergiant)</td></tr>
+  <tr><td><b>G</b></td><td>5,200–6,000</td><td>yellow</td><td class="num">0.8–1.1</td><td class="num">0.6–1.5</td><td class="num">~10 Gyr</td><td class="num">8%</td><td>the Sun, α Centauri A</td></tr>
+  <tr><td><b>K</b></td><td>3,700–5,200</td><td>orange</td><td class="num">0.45–0.8</td><td class="num">0.08–0.6</td><td class="num">15–50 Gyr</td><td class="num">12%</td><td>α Cen B, Arcturus (giant)</td></tr>
+  <tr><td><b>M</b></td><td>2,400–3,700</td><td>red</td><td class="num">0.08–0.45</td><td class="num">&lt; 0.08</td><td class="num">&gt; 50 Gyr</td><td class="num">76%</td><td>Proxima Cen, Betelgeuse (supergiant)</td></tr>
+</table>
+<div class="box hist full"><div class="bh">History &amp; method · the Harvard “computers” (your <em>Glass Universe</em> reading)</div>
+  The OBAFGKM system was built <b>at Harvard College Observatory</b> by women hired to analyze glass photographic plates: <b>Williamina Fleming</b> and <b>Antonia Maury</b> began the classifications, and <b>Annie Jump Cannon</b> ordered them by temperature and classified ~350,000 stars by hand. <b>Henrietta Leavitt</b> found the Cepheid period–luminosity law (Ch. 16), and <b>Cecilia Payne</b> showed in 1925 that stars are mostly hydrogen. The Friday section on the plate collection works with those same plates.
+</div>
+<p><b>Mass from binary stars.</b> Only orbits reveal mass. <b>Visual binaries</b> (both stars seen orbiting), <b>eclipsing binaries</b> (the orbit is edge-on and the stars block each other), and <b>spectroscopic binaries</b> (Doppler shifts reveal the orbit). From the <b>period</b> and <b>separation</b>, Newton's Kepler 3 gives the total mass. Star masses range from <b>0.08 M<sub>☉</sub></b> (below that, no H fusion: brown dwarfs) to ~<b>150 M<sub>☉</sub></b>. <b>Radius</b> follows from L and T via L = 4πR²σT⁴.</p>
+
+<h2><span class="k">12.2</span> Patterns: the Hertzsprung–Russell diagram</h2>
+<p>Plot <b>luminosity vs. surface temperature</b> (temperature <em>decreases</em> to the right) and stars fall into groups. Size increases diagonally toward the upper right: at the same T, more luminous means bigger.</p>
+<ul>
+  <li><b>Main sequence</b> (~90% of stars): all are <b>fusing hydrogen into helium in their cores</b>. Position along it is set by <b>mass</b>: massive stars sit at the upper left (hot, luminous), low-mass stars at the lower right. L ∝ M<sup>~3.5</sup>, so <b>massive stars burn out fast</b>: lifetime ≈ 10<sup>10</sup> yr × (M/M<sub>☉</sub>)<sup>−2.5</sup>. A 10 M<sub>☉</sub> star lives ~30 Myr; a 0.3 M<sub>☉</sub> star, trillions of years.</li>
+  <li><b>Giants and supergiants</b> (upper right: cool but hugely luminous, so enormous): stars near the end of their lives, done with core hydrogen and fusing other things at a furious rate. Betelgeuse's radius is ~4 AU.</li>
+  <li><b>White dwarfs</b> (lower left: hot but dim, so Earth-sized): exposed cores of dead stars with no fusion, slowly cooling.</li>
+  <li><b>Luminosity classes:</b> I supergiant, III giant, V main sequence (the Sun is G2 V). Some giants <b>pulsate</b>, like the Cepheid variables that are key distance indicators.</li>
+</ul>
+
+<h2><span class="k">12.3</span> Star clusters and their ages</h2>
+<p><b>Open clusters</b> (hundreds to thousands of stars, loose, young, in the galactic disk: the Pleiades) and <b>globular clusters</b> (up to a million tightly packed stars, very old, in the halo). All stars in a cluster formed <b>at the same time and distance</b>, making a cluster a perfect laboratory. Over time the most massive stars leave the main sequence first, so the upper main sequence erodes from the top. The <b>main-sequence turnoff point</b> sits at the stars whose lifetime equals the cluster's age. The Pleiades turn off at B stars (~100 Myr); globular clusters turn off below the Sun's mass, so they are <b>~12–13 billion years old</b>, among the oldest things we know.</p>
+
+<div class="box math full"><div class="bh">Toolkit · from observed to intrinsic properties</div>
+  <div class="eq-row">
+    <div class="eq"><span class="nm">Inverse square law</span>$$b = \frac{L}{4\pi d^2}$$<span class="why">Sun: L = 4π(1.5×10<sup>11</sup> m)² × 1.36×10³ W/m² = <b>3.8×10<sup>26</sup> W</b>.</span></div>
+    <div class="eq"><span class="nm">Parallax distance</span>$$d\,[\text{pc}] = \frac{1}{p\,[\text{arcsec}]},\quad 1\,\text{pc} = 3.26\,\text{ly}$$<span class="why">α Cen: p = 0.742″, so d = 1.35 pc = 4.4 ly.</span></div>
+    <div class="eq"><span class="nm">Radius from L and T</span>$$L = 4\pi R^2 \sigma T^4 \;\Rightarrow\; \frac{R}{R_\odot} = \sqrt{\frac{L}{L_\odot}}\left(\frac{5800\,\text{K}}{T}\right)^{2}$$<span class="why">Betelgeuse: L = 1.2×10<sup>5</sup> L<sub>☉</sub>, T = 3650 K, so R ≈ 850 R<sub>☉</sub> ≈ 4 AU.</span></div>
+    <div class="eq"><span class="nm">Magnitudes · binary masses</span>$$m - M = 5\log_{10}\frac{d}{10\,\text{pc}},\qquad M_1 + M_2 = \frac{a[\text{AU}]^3}{p[\text{yr}]^2}\,M_\odot$$<span class="why">A 5-magnitude difference is a brightness factor of 100.</span></div>
+  </div>
+</div>
+
+<h2><span class="k">Practice</span> Exam-style questions with worked answers</h2>
+<div class="qa c3">
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Move α Centauri 10× farther away. Its parallax…? What do we need for luminosity?</div><div class="a">Parallax gets <b>10× smaller</b> (p ∝ 1/d). Luminosity needs <b>apparent brightness and distance</b>.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>To get masses in an eclipsing binary you need…?</div><div class="a">The <b>time between eclipses (period) and the average separation</b>, then Newton's Kepler 3.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Coolest: A, F or K? Most massive and longest-lived main-sequence star: A, G or M?</div><div class="a"><b>K</b> is coolest. <b>A</b> is most massive; <b>M</b> lives longest (low mass → slow fuel use).</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Largest radius: A supergiant, K giant or M supergiant? Hottest: B main-sequence, A supergiant or K giant?</div><div class="a">The <b>M supergiant</b> (huge L at low T means a huge area). Hottest: the <b>main-sequence B</b> star (spectral type sets T).</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Clusters whose brightest main-sequence stars are white, or yellow, or with stars of all colors: which is youngest? Oldest?</div><div class="a">Youngest: the one with <b>stars of all colors</b>, because it still has its blue O/B stars (a white turnoff means hundreds of Myr). Oldest: the one whose turnoff is at <b>yellow</b> stars.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>α Cen A: 4.4 ly, b = 2.7×10<sup>−8</sup> W/m². L? How far must a 100 W bulb be to look as bright?</div><div class="a">L = 4π(4.2×10<sup>16</sup> m)² × 2.7×10<sup>−8</sup> ≈ <b>5.9×10<sup>26</sup> W</b> (1.6 L<sub>☉</sub>). Bulb: d = √(100/(4π × 2.7×10<sup>−8</sup>)) ≈ <b>17 km</b>.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>A star with L = 8×10<sup>26</sup> W has b = 3.5×10<sup>−12</sup> W/m². Distance?</div><div class="a">d = √(L/4πb) = √(8×10<sup>26</sup>/4.4×10<sup>−11</sup>) ≈ <b>4.3×10<sup>18</sup> m = 4.3×10<sup>15</sup> km ≈ 450 ly</b>.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>Procyon's parallax is 0.286″. Distance?</div><div class="a">d = 1/0.286 = <b>3.5 pc = 11.4 ly</b>.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>Sirius A: 26 L<sub>☉</sub>, 9400 K. Radius?</div><div class="a">R = √26 × (5800/9400)² R<sub>☉</sub> = 5.1 × 0.38 ≈ <b>1.9 R<sub>☉</sub></b> (≈ 1.3×10<sup>9</sup> m).</div></div>
+</div>
+
+<h2 class="more" id="go12"><span class="k">Going further</span> Homework, deeper physics &amp; more practice</h2>
+<div class="box hw"><div class="bh">Homework · HW 1 #2 “3D Orion” (Hirshfeld Activity 11), worked</div>
+  <div class="fr n40" style="margin-top:0">
+    <figure style="margin:0"><img src="figs/ch12_orion3d.svg"><figcaption><b>Orion flattened vs. in depth.</b> Four stars (the belt's Mintaka and Alnitak, plus Rigel and Saiph) sit together at 200–260 pc; Bellatrix and Betelgeuse are in the foreground, Alnilam far behind.</figcaption></figure>
+  </div>
+  <ol>
+    <li><span class="hp">Photos 1 → 2 → 3:</span> six months apart, so Earth is on <b>opposite sides of its orbit</b> for 1 and 2 (2 AU apart), and <b>back at the same place</b> for 3.</li>
+    <li><span class="hp">The nearest star</span> is the one that <b>jumps</b> between photos 1 and 2 and returns in 3 (just below-right of the top-left star in photo 1; it lands mid-frame in photo 2). Distant stars don't move: bigger shift = closer.</li>
+    <li><span class="hp">Bessel's star:</span> p = 0.00008° = 0.29″, so d = 1/0.29 = 3.5 pc = 7.2×10<sup>5</sup> AU. With 1 AU = 6 cm: 7.2×10<sup>5</sup> × 6 cm = <b>4.3×10<sup>6</sup> cm = 4.3×10<sup>4</sup> m = 43 km</b>.</li>
+    <li><span class="hp">To scale,</span> Earth's orbit (6 cm across) and a star 43 km away: textbook parallax drawings exaggerate the angle enormously. The real angle is under 1″.</li>
+    <li><span class="hp">Distances d = 1/p:</span> Betelgeuse <b>150 pc</b>, Bellatrix <b>78</b>, Mintaka <b>210</b>, Alnilam <b>590</b>, Alnitak <b>230</b>, Rigel <b>260</b>, Saiph <b>200 pc</b>.</li>
+    <li><span class="hp">Grouped in space:</span> Mintaka, Alnitak, Saiph and Rigel (~200–260 pc, members of the young Orion OB1 association). <b>Not</b> grouped: Bellatrix (78 pc) and Betelgeuse (150 pc) are much closer; Alnilam (~600 pc) is much farther, yet looks like a neighbour of Mintaka and Alnitak in the belt. A constellation is a line-of-sight pattern.</li>
+  </ol>
+</div>
+<div class="box lab"><div class="bh">Hirshfeld Activities 12–14: weigh a star, build an HR diagram, measure a cluster</div>
+  <b>Act. 12, Sirius:</b> the orbit's dates repeat after P ≈ <b>50 yr</b>; p = 0.379″ → d = 2.64 pc = 5.4×10<sup>5</sup> AU; α = 7.6″ = 0.0021° → a = dα/57.3 ≈ <b>20 AU</b>; M = a³/P² = 8000/2500 = <b>3.2 M<sub>☉</sub></b>. The centre-of-mass line lies twice as far from Sirius B as from Sirius A, so A ≈ <b>2.1</b> and B ≈ <b>1.0 M<sub>☉</sub></b> (a white dwarf: Sun's mass, Earth's size). <b>Act. 13:</b> the nearest stars are mostly faint M dwarfs; the brightest-looking stars are mostly rare luminous giants and A/B stars: a <b>selection effect</b>. <b>Act. 14, main-sequence fitting:</b> the Pleiades' main sequence sits ~5.6 mag below the zero-age main sequence (which is at 10 pc). Brightness ratio 10<sup>0.4×5.6</sup> ≈ 170, so d = 10 pc × √170 ≈ <b>130 pc</b>. Uncorrected dust makes stars look fainter, so distances come out too large.
+</div>
+<div class="box deep"><div class="bh">Going deeper · magnitudes and the distance modulus (Owocki §3, 9–10)</div>
+  m<sub>1</sub> − m<sub>2</sub> = 2.5 log(b<sub>2</sub>/b<sub>1</sub>); the <b>distance modulus</b> m − M = 5 log(d/10 pc), with M = 4.8 − 2.5 log(L/L<sub>☉</sub>). Sirius: m = −1.42, M = +1.40, so d = 10<sup>1 + (m−M)/5</sup> = <b>2.7 pc</b>. <b>Proper motion</b> gives transverse speed V<sub>t</sub> = 4.74 μ/p km/s (μ in ″/yr): Barnard's star, μ = 10.3″/yr, p = 0.55″ → 90 km/s. Binaries give L ∝ M<sup>3–3.5</sup>; spectroscopic binaries give masses only up to a factor sin³i.
+</div>
+<div class="qa c3">
+  <div class="qitem"><div class="q"><span class="tag bk">Owocki</span>The Sun has m = −26.7 at 1 AU (4.85×10<sup>−6</sup> pc). Its absolute magnitude?</div><div class="a">m − M = 5 log(4.85×10<sup>−7</sup>) = −31.6, so <b>M = +4.8</b>: an ordinary star at 10 pc.</div></div>
+  <div class="qitem"><div class="q"><span class="tag bk">Cosmos</span>A red giant: half the Sun's temperature, 100× its radius. Luminosity?</div><div class="a">L ∝ R²T⁴ = 10<sup>4</sup> × 1/16 = <b>630 L<sub>☉</sub></b>.</div></div>
+  <div class="qitem"><div class="q"><span class="tag bk">Owocki</span>Two stars 1″ apart circle each other in 10 yr; the system's parallax is 0.2″. Total mass?</div><div class="a">d = 5 pc, so a = 1″ × 5 = 5 AU; M = 125/100 = <b>1.25 M<sub>☉</sub></b>.</div></div>
+</div>
+<p class="further"><b>Read more:</b> Hirshfeld Activities 11–14 · Owocki §2–3 (parallax, magnitudes), §5–6 (radius, spectral types, HR), §9–10 (velocities, binaries), §12 (extinction) · Pasachoff &amp; Filippenko ch. 11 (stars: Cepheids, found by Henrietta Leavitt at Harvard; RR Lyrae; open vs. globular clusters).</p>
+
+<div class="recap"><div class="lbl">30-second<br>recap</div><div><b>Parallax</b> gives distance; distance + brightness give <b>luminosity</b> (inverse square law); color or spectrum gives <b>temperature</b> (OBAFGKM); binary orbits give <b>mass</b>; L and T give <b>radius</b>. On the <b>H–R diagram</b>, 90% of stars lie on the <b>main sequence</b>, a <b>mass sequence</b> of H-fusing stars (massive = hot, luminous, short-lived). Giants and supergiants are dying stars; white dwarfs are dead cores. Cluster <b>turnoff points</b> give ages up to ~13 Gyr.</div></div>
+</section>

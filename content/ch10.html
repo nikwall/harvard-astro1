@@ -1,0 +1,93 @@
+<section class="chapter" id="ch10">
+<header class="ch-head">
+  <div class="ch-num">10</div>
+  <div class="ch-kicker">Part III · Learning from Other Worlds</div>
+  <h1>Other Planetary Systems</h1>
+  <div class="bigq">Big question: How do we find planets we can't see, and does our solar system's story hold up elsewhere?</div>
+  <div class="ch-tags"><span class="hot">Module 3 · Week 6</span><span>L11: Exoplanets</span><span>Section: Exoplanet transit characterization</span><span>HW 5</span><span>Book pp. 265–287</span><span class="hot">Last chapter before the midterm (Oct 13)</span></div>
+</header>
+
+<div class="context">
+  <div class="before"><h4>Coming in with</h4>Newton's Kepler 3 (Ch. 4); Doppler shifts and telescopes (Ch. 5); the nebular theory and the frost line (Ch. 6); jovian planets (Ch. 8).</div>
+  <div><h4>This chapter</h4>The methods (astrometric, <b>Doppler</b>, <b>transit</b>, direct imaging, microlensing), what each measures, the surprising variety of exoplanets, and how the nebular theory had to be updated (<b>migration</b>).</div>
+  <div class="after"><h4>Leads to</h4>Friday's transit section; stellar masses and radii from binaries (Ch. 12); habitable zones and biosignatures (Ch. 19).</div>
+</div>
+
+<div class="stats">
+  <div class="stat"><b>6,366</b><span>confirmed exoplanets (NASA Exoplanet Archive, Sept 2026)</span></div>
+  <div class="stat"><b>74%</b><span>found by transits (Kepler, TESS)</span></div>
+  <div class="stat"><b>1995</b><span>51 Pegasi b: first planet around a Sun-like star (Nobel Prize 2019)</span></div>
+  <div class="stat"><b>~1 per star</b><span>planets are common; most stars have at least one</span></div>
+</div>
+
+<h2><span class="k">10.1</span> Detecting planets around other stars</h2>
+<p><b>The problem:</b> a planet is billions of times fainter than its star and lost in the glare. Seen from far away, the Sun would outshine Earth ~10<sup>10</sup> to 1. So we mostly use <b>indirect methods</b>, watching the star rather than the planet:</p>
+<ul>
+  <li><b>Gravitational tug.</b> Star and planet both orbit their common <b>center of mass</b>, so the star wobbles. (1) <b>Astrometric method:</b> measure the tiny side-to-side shift in the star's position (now done by ESA's Gaia). (2) <b>Doppler (radial-velocity) method:</b> measure the periodic red/blueshift of the star's spectral lines. It gives the <b>orbital period</b> (→ distance via Kepler 3) and the planet's mass. Because we see only the line-of-sight component, we get a <b>minimum mass</b> unless we know the tilt.</li>
+  <li><b>Transits:</b> if the orbit is <b>edge-on</b>, the planet crosses the star and dims it slightly. The depth gives the planet's <b>size</b>; repeated transits give the period. Kepler (2009–18) and TESS (since 2018) found thousands this way. During the <b>eclipse</b> (planet behind the star), the tiny drop in infrared light gives the planet's temperature.</li>
+  <li><b>Direct imaging</b> (block the starlight with a coronagraph; best for young, hot giants far from their stars) and <b>gravitational microlensing</b> (a planet's gravity briefly magnifies a background star).</li>
+</ul>
+<figure><img src="figs/ch10_signals.svg"><figcaption><b>The two workhorse signals</b> (simulated data points). Left: a hot Jupiter makes its star swing ±56 m/s, which is walking pace, measured from light-years away. Right: a transiting giant blocks 1.7% of its star's light for ~2 hours.</figcaption></figure>
+
+<h2><span class="k">10.2</span> The nature of planets around other stars</h2>
+<div class="fr">
+  <figure style="margin-top:0"><img src="figs/ch10_population.svg"><figcaption><b>All confirmed exoplanets</b> with a known period and mass (some masses estimated from radius), by discovery method, with the solar system's planets in black. Transits favor short periods and Doppler favors massive planets: <b>selection effects</b>. Our solar system sits in a region that is still hard to survey.</figcaption></figure>
+</div>
+<p><b>What we can measure:</b> every method gives the orbital <b>period and distance</b>. Doppler and astrometry give <b>mass</b>; transits give <b>size</b>. Transit + Doppler together give <b>density</b>, and so a planet's <b>composition type</b> (rock, water world, gas giant). During transits, starlight filtered through a planet's atmosphere reveals molecules (<b>transmission spectroscopy</b>): JWST has measured CO₂, water, methane and sulfur dioxide in exoplanet atmospheres.</p>
+<p><b>The big surprise: variety.</b></p>
+<ul>
+  <li><b>Hot Jupiters:</b> giant planets orbiting in days, far closer than Mercury (51 Peg b: 4.2 days, 0.05 AU, ~1000°C). Some are puffed up by the heat.</li>
+  <li>Many orbits are <b>eccentric</b>; some are even tilted or backward relative to the star's spin.</li>
+  <li><b>Super-Earths</b> (1–1.6 Earth radii, rocky) and <b>sub-Neptunes</b>, the most common kinds of planet, have no solar-system equivalent. Also <b>water worlds</b> and lava worlds.</li>
+  <li>Compact multi-planet systems: TRAPPIST-1 has seven Earth-size planets packed inside Mercury-like distances around a cool red dwarf, several in its habitable zone.</li>
+</ul>
+
+<h2><span class="k">10.3</span> Do we need to revise the nebular theory?</h2>
+<p>The basic theory survives: disks around young stars are seen everywhere, and planets orbit in the same direction as their stars spin. But hot Jupiters can't have <em>formed</em> so close (too hot for ices, too little material), so we added <b>planetary migration</b>: while the gas disk is still present, waves in the disk exchange angular momentum with a young planet and it spirals inward (or outward). Close <b>gravitational encounters</b> between planets can fling them onto eccentric orbits or eject them (“rogue planets”). The theory needed <b>modification, not replacement</b>, which is how science normally works. Our own system's layout may be somewhat unusual, but <b>Earth-size planets in habitable zones appear common</b>.</p>
+
+<div class="box math full"><div class="bh">Toolkit · reading exoplanet data</div>
+  <div class="eq-row">
+    <div class="eq"><span class="nm">Transit depth → planet radius</span>$$\text{fraction blocked} = \frac{\pi r_p^2}{\pi r_\star^2}\;\Rightarrow\; r_p = r_\star\sqrt{\text{fraction blocked}}$$<span class="why">HD 189733: r<sub>★</sub> = 800,000 km, depth 1.7%, so r<sub>p</sub> = 800,000 × √0.017 ≈ <b>1.0×10<sup>5</sup> km</b> (1.4 Jupiter radii).</span></div>
+    <div class="eq"><span class="nm">Period → orbital distance (Sun-like star)</span>$$a\,[\text{AU}] = p\,[\text{yr}]^{2/3},\qquad \rho = \frac{M}{\tfrac43\pi r^3}$$<span class="why">Doppler amplitude ∝ planet mass. Earth moves the Sun by only 0.09 m/s, which is why Earth twins are so hard to find by Doppler.</span></div>
+  </div>
+</div>
+
+<div class="box lab full"><div class="bh">Course link · the transit section</div>
+  In the Friday section you'll fit a real light curve: measure the <b>depth</b> (→ radius ratio), the <b>period</b> (→ a via Kepler 3, using the star's mass), and the <b>duration and shape</b> (ingress/egress → impact parameter). Add a Doppler mass and you have the <b>density</b>, and therefore the kind of world. Watch out for false positives: eclipsing binary stars can mimic a planet's transit.
+</div>
+
+<h2><span class="k">Practice</span> Exam-style questions with worked answers</h2>
+<div class="qa c3">
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Which method could detect a planet whose orbit is face-on to us?</div><div class="a"><b>Astrometric</b>: the star's side-to-side wobble is in the sky plane. Doppler needs line-of-sight motion; transits need edge-on orbits.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Which methods measure mass? Which gives size? Which pair gives density?</div><div class="a">Mass: <b>astrometric and Doppler</b>. Size: <b>transit</b>. Density: <b>transit + Doppler</b> together.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>What is a “super-Earth”?</div><div class="a">A planet <b>similar in composition to Earth but larger</b> (up to ~1.6 R<sub>⊕</sub>, a few M<sub>⊕</sub>). Not simply a hotter Earth.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Best explanation for hot Jupiters? When does migration happen?</div><div class="a">They <b>formed farther out and migrated inward</b>, <b>early</b>, while the gas disk still existed. It wasn't the star's gravity pulling them in.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Visual Skills</span>If the planet were more massive (same orbit), how would the star's velocity curve change?</div><div class="a"><b>Bigger peaks and valleys</b> (a stronger tug); the <b>period stays the same</b>, since it depends on distance and the star's mass.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>What fraction of the Sun's light does Earth intercept, and reflect (29%)?</div><div class="a">πR<sub>⊕</sub>²/(4πa²) = (6.4×10<sup>6</sup>)²/(4 × (1.5×10<sup>11</sup>)²) ≈ <b>4.5×10<sup>−10</sup></b>; reflected ≈ <b>1.3×10<sup>−10</sup></b>. Jupiter: ~2×10<sup>−9</sup> (its size wins over its distance).</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>TrES-1 blocks 2% of a 0.85 R<sub>☉</sub> star. Radius?</div><div class="a">0.85 × 696,000 km × √0.02 ≈ <b>8.4×10<sup>4</sup> km</b> (≈ 1.2 R<sub>J</sub>).</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>…and its mass is 0.75 M<sub>J</sub> (1.4×10<sup>30</sup> g). Density? Type?</div><div class="a">V = 4/3 π (8.4×10<sup>9</sup> cm)³ ≈ 2.5×10<sup>30</sup> cm³, so ρ ≈ <b>0.6 g/cm³</b>: less dense than Saturn, a <b>jovian</b> planet.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>51 Peg b: period 4.23 days around a Sun-mass star. Distance?</div><div class="a">p = 4.23/365 = 0.0116 yr, so a = p<sup>2/3</sup> ≈ <b>0.051 AU</b>, about 1/8 of Mercury's distance. A hot Jupiter.</div></div>
+</div>
+
+<h2 class="more" id="go10"><span class="k">Going further</span> Activities, deeper physics &amp; more practice</h2>
+<div class="box lab"><div class="bh">Hirshfeld Activities 26–28 · finding and weighing exoplanets (very likely homework material)</div>
+  <b>Centre of mass:</b> M<sub>star</sub> r<sub>star</sub> = M<sub>pl</sub> r<sub>pl</sub>; both circle it with the <b>same period</b>, and v<sub>star</sub> = 2πr<sub>star</sub>/P.
+  <ol>
+    <li><span class="hp">Our Sun from afar (Act. 26):</span> Jupiter (318 M<sub>⊕</sub> at 7.8×10<sup>8</sup> km) moves the Sun 7.4×10<sup>5</sup> km from the centre of mass, just <b>outside the Sun's surface</b>, at <b>12 m/s</b>. Earth moves it only 450 km, at <b>0.09 m/s</b>. HARPS (0.5 m/s) would find Jupiter, not Earth. A low-mass star wobbles more, so Earth analogs are easier around <b>red dwarfs</b>.</li>
+    <li><span class="hp">51 Pegasi b:</span> v = 56 m/s, P = 4.23 d = 3.65×10<sup>5</sup> s. Star's orbit r<sub>star</sub> = vP/2π = <b>3.3×10<sup>3</sup> km</b>; planet's orbit from Kepler 3: <b>7.7×10<sup>6</sup> km = 0.05 AU</b> (8× closer than Mercury); M<sub>pl</sub> = M<sub>star</sub> r<sub>star</sub>/r<sub>pl</sub> = 333,000 × 3.3×10<sup>3</sup>/7.7×10<sup>6</sup> ≈ <b>140 M<sub>⊕</sub> = 0.44 M<sub>J</sub></b>. It's a <b>hot Jupiter</b> (a minimum mass if the orbit is tilted).</li>
+    <li><span class="hp">Transits (Act. 27):</span> depth f = (R<sub>pl</sub>/R<sub>star</sub>)²: Earth across the Sun = (6370/696,000)² = <b>8.4×10<sup>−5</sup></b> (84 ppm); duration 2(R<sub>☉</sub> + R<sub>⊕</sub>)/v<sub>orb</sub> = 2 × 7.0×10<sup>5</sup> km / 30 km/s ≈ <b>13 h</b>, once a year; alignment odds ≈ R<sub>☉</sub>/1 AU ≈ <b>1 in 200</b>, so surveys watch ~10<sup>5</sup> stars.</li>
+    <li><span class="hp">Kepler-21b (Act. 28):</span> P = 2.79 d around a 1.4 M<sub>☉</sub>, 1.9 R<sub>☉</sub>, 5.2 L<sub>☉</sub> star. a = <b>0.043 AU</b>; star speed 2 m/s → r<sub>star</sub> = 77 km → M ≈ <b>5.5 M<sub>⊕</sub></b>; radius from the transit depth ≈ <b>1.6 R<sub>⊕</sub></b>, so ρ ≈ 5.5 × 5.5/1.6³ ≈ <b>7 g/cm³</b>: a rocky <b>super-Earth</b>, at T ≈ 1850 K (a lava world).</li>
+  </ol>
+</div>
+<div class="box deep"><div class="bh">Going deeper · the two detection formulas and their biases (Owocki §25)</div>
+  Star's wobble: <b>v ≈ 30 km/s × (m<sub>pl</sub>/M<sub>star</sub>) × (M<sub>star</sub>/M<sub>☉</sub>)<sup>1/3</sup> (P/1 yr)<sup>−1/3</sup></b>, which favours massive planets on short orbits. Transit depth (R<sub>pl</sub>/R<sub>star</sub>)², which favours big planets around small stars. The first finds were therefore <b>hot Jupiters</b>: an observational bias, not what's typical. The most common planets are <b>super-Earths and sub-Neptunes</b>. A transit spectrum (in-transit vs. out-of-transit) reads the planet's air (HW 3 #1c, Ch. 5); oxygen or methane would be possible biosignatures.
+</div>
+<div class="qa c3">
+  <div class="qitem"><div class="q"><span class="tag bk">Cosmos</span>A planet has 10% of its star's diameter. How much does the transit dim the star?</div><div class="a">(0.1)² = <b>1%</b>, a Jupiter around a Sun-like star.</div></div>
+  <div class="qitem"><div class="q"><span class="tag bk">Cosmos</span>Why do Doppler surveys give only a <em>minimum</em> planet mass?</div><div class="a">They measure only the <b>line-of-sight</b> part of the star's motion: v sin i. A tilted orbit hides some of it, so the true mass is m = (m sin i)/sin i ≥ m sin i.</div></div>
+  <div class="qitem"><div class="q"><span class="tag bk">Hirshfeld</span>How far away could a Kepler-class telescope (limit m = 12) see Earth transit the Sun (m = −26.7)?</div><div class="a">Δm = 38.7 → brightness ratio 10<sup>0.4×38.7</sup> ≈ 3×10<sup>15</sup>, distance ratio √ = 5.5×10<sup>7</sup> AU ≈ <b>870 ly</b>.</div></div>
+</div>
+<p class="further"><b>Read more:</b> Hirshfeld Activities 25–28 · Owocki §25 (imaging, radial velocity, transits, census, habitable zone) · Pasachoff &amp; Filippenko ch. 9.2 (the first pulsar planets 1992, 51 Peg b 1995, the first transit and first exoplanet atmosphere, sodium in HD 209458b).</p>
+
+<div class="recap"><div class="lbl">30-second<br>recap</div><div>We find exoplanets mostly <b>indirectly</b>: the star's <b>wobble</b> (astrometry, Doppler → period and minimum mass) and <b>transits</b> (dimming → size). Combined, they give <b>density</b>, and transmission spectra give <b>atmospheres</b>. Over 6,000 are known, with huge variety: <b>hot Jupiters</b>, eccentric orbits, super-Earths and sub-Neptunes. The nebular theory survives with one big addition: <b>migration</b> in the young gas disk (plus scattering). Planets turn out to be <b>common</b>.</div></div>
+</section>

@@ -1,0 +1,87 @@
+<section class="chapter" id="ch13">
+<header class="ch-head">
+  <div class="ch-num">13</div>
+  <div class="ch-kicker">Part IV · Stars</div>
+  <h1>Star Stuff</h1>
+  <div class="bigq">Big question: How are stars born, how do they live and die, and how did they make the atoms we're made of?</div>
+  <div class="ch-tags"><span class="hot">Module 4 · Week 8</span><span>L13: Stellar structure &amp; forces in balance</span><span>L14: Low-mass stellar evolution &amp; nuclear burning</span><span>Section: Evolving a star with MESA</span><span>HW 6</span><span>Book pp. 333–360</span></div>
+</header>
+
+<div class="context">
+  <div class="before"><h4>Coming in with</h4>Gravitational equilibrium, fusion and the thermostat (Ch. 11); the H–R diagram and the mass–lifetime link (Ch. 12); cloud collapse and disks (Ch. 6).</div>
+  <div><h4>This chapter</h4>A star's whole life, set almost entirely by its <b>mass</b>: birth in molecular clouds; low-mass stars → red giant → planetary nebula → white dwarf; high-mass stars → successive fusion → iron core → supernova. Plus binaries that swap mass.</div>
+  <div class="after"><h4>Leads to</h4>The remnants (white dwarfs, neutron stars, black holes) in Ch. 14; galactic recycling of the new elements (Ch. 15); “star stuff” and life (Ch. 19).</div>
+</div>
+
+<h2><span class="k">13.1</span> Star birth</h2>
+<p>Stars form in <b>molecular clouds</b>: the coldest (10–30 K), densest parts of interstellar gas, where hydrogen forms H₂ molecules and dust blocks visible light (we see inside them with infrared and radio). Gravity must beat thermal pressure, and that's easiest when the gas is <b>cold and dense</b> and the cloud is massive. A collapsing cloud <b>fragments</b> into many clumps, so stars are born in <b>clusters</b>.</p>
+<p>Each fragment <b>heats up</b> (gravitational energy → thermal energy), <b>spins up</b> and <b>flattens</b> (angular momentum): a <b>protostar</b> with a disk (where planets form, Ch. 6) and often two <b>jets</b> shooting out along the rotation axis. The protostar keeps contracting until its core reaches ~10 million K and hydrogen fusion begins: a <b>main-sequence star</b>. This takes ~50 Myr for the Sun, much less for massive stars.</p>
+<p><b>Mass limits:</b> above ~<b>150 M<sub>☉</sub></b>, radiation pressure blows the star apart. Below <b>0.08 M<sub>☉</sub></b>, <b>degeneracy pressure</b> halts the collapse before the core gets hot enough for hydrogen fusion: a <b>brown dwarf</b> (a “failed star”, 13–80 Jupiter masses). Newborn stars are mostly low-mass: for every O star there are thousands of M stars.</p>
+<div class="box key full"><div class="bh">Key insight · degeneracy pressure</div>
+  Ordinary (thermal) pressure depends on temperature. <b>Degeneracy pressure</b> is quantum mechanical: no two electrons (or neutrons) can occupy the same state, so squeezing them into a smaller space forces them to move faster. It <b>doesn't depend on temperature</b>, so it can't act as a thermostat. It holds up brown dwarfs, the cores of red giants and white dwarfs (<b>electron</b> degeneracy), and neutron stars (<b>neutron</b> degeneracy).
+</div>
+
+<h2><span class="k">13.2</span> Life as a low-mass star (below ~8 solar masses)</h2>
+<ol>
+  <li><b>Main sequence</b> (~10 Gyr for the Sun): H → He in the core via the proton–proton chain, held steady by the thermostat.</li>
+  <li><b>Core H runs out → red giant.</b> The inert He core shrinks and heats (no fusion, so no support); <b>hydrogen shell fusion</b> ignites around it at a furious rate, and the outer layers swell to ~100× the Sun's radius and 1000× its luminosity.</li>
+  <li><b>Helium flash:</b> at ~100 million K, helium fuses into carbon (the <b>triple-alpha process</b>: 3 ⁴He → ¹²C). Because the core is degenerate it ignites almost explosively. Afterwards the star <b>shrinks and dims</b> somewhat, with helium core fusion plus hydrogen shell fusion.</li>
+  <li><b>Double-shell burning</b> (He and H shells around an inert carbon core): the star becomes a giant again, even bigger and more luminous (the AGB). Unstable shells drive strong winds.</li>
+  <li><b>Death:</b> the core never reaches carbon-fusion temperature, since degeneracy pressure stops the collapse. The outer layers drift off as a glowing <b>planetary nebula</b> (nothing to do with planets), exposing the hot core: a <b>white dwarf</b> (a carbon–oxygen ball the size of Earth), which cools forever.</li>
+</ol>
+<p><b>The Sun's future:</b> in ~5 Gyr it becomes a red giant, probably swallowing Mercury and Venus. Earth's fate is uncertain, but it will be scorched long before: the Sun brightens slowly, so oceans evaporate in ~1–2 Gyr.</p>
+
+<h2><span class="k">13.3</span> Life as a high-mass star (above ~8 solar masses)</h2>
+<div class="fr">
+  <figure style="margin-top:0"><img src="figs/ch13_tracks.svg"><figcaption><b>Life tracks on the H–R diagram</b> (schematic). Orange: the Sun's future. Blue: a massive star that swells into a red supergiant. Run MESA in section and your star will trace a path like these.</figcaption></figure>
+</div>
+<p>High-mass stars fuse hydrogen via the <b>CNO cycle</b>, with carbon, nitrogen and oxygen acting as catalysts. It's far faster, hence short lives. Afterward the core keeps contracting and heating, and each time a new fuel ignites: He → C, C → O, Ne, Mg, … up to Si → <b>Fe</b>. The star becomes a <b>supergiant</b> with an onion of fusion shells. Many elements form by adding helium nuclei, which is why elements with even numbers of protons (C, O, Ne, Mg, Si, S…) are more common: evidence that stars made them.</p>
+<p><b>Iron is the dead end:</b> it has the <b>lowest mass per nuclear particle</b>, so neither fusing nor splitting it releases energy. Iron piles up in an inert core supported only by electron degeneracy. When it passes ~1.4 M<sub>☉</sub>, gravity wins: in a fraction of a second electrons and protons merge into <b>neutrons + neutrinos</b>, the core collapses to a ball of neutrons ~20 km across and <b>rebounds</b>, and the outer layers blast away in a <b>supernova</b> (core collapse, “Type II”), briefly outshining a whole galaxy. It leaves a <b>neutron star</b> or, for the heaviest stars, a <b>black hole</b>. The expanding debris (a supernova remnant, like the Crab Nebula from 1054) seeds space with new elements. <b>SN 1987A</b> in the Large Magellanic Cloud confirmed the theory: detectors caught its <b>neutrino burst</b> hours before the light arrived.</p>
+<div class="clear"></div>
+<div class="fl">
+  <figure style="margin-top:0"><img src="figs/ch13_onion.svg"><figcaption><b>The “onion” before collapse.</b> Each stage burns hotter and faster: carbon for centuries, silicon for about a <em>day</em>.</figcaption></figure>
+</div>
+<div class="fr">
+  <figure style="margin-top:0"><img src="figs/ch13_binding.svg"><figcaption><b>Why iron ends fusion.</b> Energy is released when nuclei move <em>toward</em> iron: fusion for light nuclei, fission for heavy ones. (Binding energy per particle is the mirror image of the book's “mass per nuclear particle”.)</figcaption></figure>
+</div>
+<div class="clear"></div>
+<h3>13.4 Close binaries</h3>
+<p>When one star in a close pair swells into a giant, gas can spill onto its companion (<b>mass transfer</b>), rewriting both stars' futures. The <b>Algol paradox</b>: Algol's 3.7 M<sub>☉</sub> star is still on the main sequence while its 0.8 M<sub>☉</sub> partner is already a subgiant, even though massive stars evolve faster. Solution: the subgiant was originally the more massive star; it evolved first and gave away most of its mass. Mass transfer onto white dwarfs leads to novae and white-dwarf supernovae (Ch. 14).</p>
+
+<div class="box math full"><div class="bh">Toolkit · conditions for star birth</div>
+  <div class="eq-row">
+    <div class="eq">$$M_{\min} = 18\,M_\odot\sqrt{\frac{T^3}{n}}$$<span class="why">T in K, n in particles/cm³: the minimum cloud mass for gravity to win over pressure (a form of the Jeans mass).</span></div>
+    <div class="worked" style="border:none;margin:0;padding:0"><b>Worked:</b> T = 30 K, n = 300 cm<sup>−3</sup>: M<sub>min</sub> = 18 × √(27,000/300) = 18 × 9.5 ≈ <b>171 M<sub>☉</sub></b>. A colder, denser core (10 K, 10<sup>5</sup> cm<sup>−3</sup>): 18 × √(10<sup>−2</sup>) = <b>1.8 M<sub>☉</sub></b>, the scale of single stars.</div>
+  </div>
+</div>
+
+<h2><span class="k">Practice</span> Exam-style questions with worked answers</h2>
+<div class="qa c3">
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Stars form most easily in clouds that are…? What is a brown dwarf?</div><div class="a"><b>Cold and dense.</b> A brown dwarf is an object <b>not quite massive enough to be a star</b> (&lt; 0.08 M<sub>☉</sub>).</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Hottest core: blue MS star, red supergiant, red MS star? No core fusion?</div><div class="a">Hottest: the <b>red supergiant</b> (fusing heavy elements). No core fusion: the <b>red giant</b> (inert He core, H burns in a shell).</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>After the helium flash, luminosity…? And the core of a high-mass star after its H runs out?</div><div class="a">Luminosity <b>goes down</b> (the star settles and shrinks). The core <b>shrinks and heats up</b> until the next fuel ignites.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>If H had the smallest mass per nuclear particle? If carbon did?</div><div class="a">H lowest: <b>no fusion in any star</b> (no energy to gain). Carbon lowest: fusion would stop at C, iron cores could never build up, so <b>no supernovae</b>.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>The solar system in 10 Gyr contains…? Which 1 M<sub>☉</sub> star dies first?</div><div class="a">A <b>white dwarf</b>. Shortest life: the one with a <b>2 M<sub>☉</sub> companion</b>, which will dump mass onto it.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>The red-giant Sun reaches 1 AU in radius. Average density?</div><div class="a">V = 4/3 π (1.5×10<sup>13</sup> cm)³ ≈ 1.4×10<sup>40</sup> cm³, so ρ = 2×10<sup>33</sup> g / V ≈ <b>1.4×10<sup>−7</sup> g/cm³</b>: 10<sup>7</sup>× thinner than water and 10<sup>4</sup>× thinner than air.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>Betelgeuse (643 ly) goes supernova at 10<sup>10</sup> L<sub>☉</sub>. How much brighter than Sirius (26 L<sub>☉</sub>, 8.6 ly)?</div><div class="a">b ∝ L/d²: (10<sup>10</sup>/26) × (8.6/643)² ≈ <b>7×10<sup>4</sup>×</b> brighter. It would be visible in daylight.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>Which elements come from C + C, C + Ne, Fe + He?</div><div class="a">Add protons: 6+6 = 12 → <b>Mg</b>; 6+10 = 16 → <b>S</b>; 26+2 = 28 → <b>Ni</b>.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>Algol: 3.7 + 0.8 M<sub>☉</sub>, period 2.87 d. Separation?</div><div class="a">a³ = (M<sub>1</sub>+M<sub>2</sub>) p² = 4.5 × (0.00786 yr)², so a ≈ <b>0.065 AU</b> (≈14 R<sub>☉</sub>), much smaller than a red giant. So mass transfer is unavoidable.</div></div>
+</div>
+
+<h2 class="more" id="go13"><span class="k">Going further</span> Activities, deeper physics &amp; more practice</h2>
+<div class="box lab"><div class="bh">Hirshfeld Activities 15–16 · stellar lives from computer models (plot the tracks yourself)</div>
+  <b>The Sun (Act. 15, Standard Solar Model):</b> it starts on the main sequence at 0.70 L<sub>☉</sub> and brightens slowly to today's 1.00 L<sub>☉</sub> at 4.6 Gyr. Core hydrogen runs out at ~11 Gyr. Then, in only ~0.7 Gyr (<b>~7% of its life</b>), it becomes a subgiant, a <b>red giant</b> (tip: ~2350 L<sub>☉</sub>, 3100 K, radius ~0.8 AU; then the helium flash), a horizontal-branch star, an AGB star (~5000 L<sub>☉</sub>), a planetary nebula, and a <b>white dwarf</b> of ~0.54 M<sub>☉</sub>. It sheds almost <b>half its mass</b>; with a weaker Sun, planetary orbits widen. Since most of a star's life is spent on the main sequence, most stars we see are there.<br>
+  <b>Massive stars (Act. 16, 15–40 M<sub>☉</sub> models):</b> they still spend <b>~85–90%</b> of their lives on the main sequence, but the lives are short: ~7 Myr on the MS for 25 M<sub>☉</sub>, ~5 Myr for 40 M<sub>☉</sub> (vs. ~10<sup>10</sup> yr for the Sun), far too short for intelligent life on their planets. They swell to <b>~1000 R<sub>☉</sub> ≈ 5 AU</b>: placed at the Sun's position, Mercury, Venus, Earth and Mars would all be inside. They lose a large fraction of their mass in winds; above ~40 M<sub>☉</sub> the envelope is blown off, exposing a hot <b>Wolf–Rayet</b> star, which explodes from blue rather than red.
+</div>
+<div class="box deep"><div class="bh">Going deeper · where the mass–luminosity law and the stellar mass limits come from (Owocki §17–19)</div>
+  <b>L ∝ M³ from two equations.</b> Hydrostatic balance gives T<sub>core</sub> ∝ M/R; radiative diffusion gives L ∝ R T⁴/(κρ) with ρ ∝ M/R³. Combine: <b>L ∝ M³</b>, and the radius cancels. Eddington derived this in the 1920s, before anyone knew stars ran on fusion: <b>luminosity is set by how fast energy can leak out, not by the nuclear furnace</b>. <b>Upper limit:</b> light pushes on electrons; the <b>Eddington luminosity</b> L<sub>Edd</sub> = 4πGMc/κ ≈ 3.8×10<sup>4</sup> L<sub>☉</sub> (M/M<sub>☉</sub>). Since L grows as M³, stars above ~150–200 M<sub>☉</sub> would blow themselves apart. <b>Lower limit:</b> below 0.08 M<sub>☉</sub> electron degeneracy stops the contraction before the core reaches ~10 MK: a <b>brown dwarf</b> (it briefly fuses deuterium). <b>Pre-main sequence:</b> a fully convective protostar slides down at ~3500–4000 K (the <b>Hayashi track</b>), then moves left at nearly constant L to the main sequence.
+</div>
+<div class="qa c3">
+  <div class="qitem"><div class="q"><span class="tag bk">Owocki</span>Eddington luminosity of a 60 M<sub>☉</sub> star? Its expected L ∝ M³?</div><div class="a">L<sub>Edd</sub> = 3.8×10<sup>4</sup> × 60 ≈ <b>2×10<sup>6</sup> L<sub>☉</sub></b>; 60³ ≈ 2×10<sup>5</sup> L<sub>☉</sub>: close to the limit already. More massive stars shed mass violently.</div></div>
+  <div class="qitem"><div class="q"><span class="tag bk">Owocki</span>A cluster's main-sequence turnoff is at 100 L<sub>☉</sub>. Its age (t ≈ 10 Gyr (L/L<sub>☉</sub>)<sup>−2/3</sup>)?</div><div class="a">10 Gyr × 100<sup>−2/3</sup> = 10/21.5 ≈ <b>0.5 Gyr</b>.</div></div>
+  <div class="qitem"><div class="q"><span class="tag bk">Cosmos</span>SN 1987A: ~20 neutrinos were caught in Japan and the US hours before the light. Why does that matter?</div><div class="a">It confirmed <b>core collapse</b>: 99% of the energy leaves as neutrinos from the new neutron star. They escape at once; light waits for the shock to reach the surface.</div></div>
+</div>
+<p class="further"><b>Read more:</b> Hirshfeld Activities 14–16 · Owocki §17 (L ∝ M³, Hayashi and Henyey tracks), §18 (fusion; brown dwarfs; Eddington limit), §19–20 (post-main-sequence evolution, helium flash, onion layers) · Pasachoff &amp; Filippenko ch. 12–13 (how stars shine; solar neutrinos; SN 1987A).</p>
+
+<div class="recap"><div class="lbl">30-second<br>recap</div><div><b>Mass is destiny.</b> Stars form from cold, dense <b>molecular clouds</b> (0.08–150 M<sub>☉</sub>; below that, brown dwarfs). <b>Low-mass</b> stars: main sequence → red giant (H shell) → <b>helium flash</b> and He fusion → double-shell giant → <b>planetary nebula + white dwarf</b>. <b>High-mass</b> stars: CNO cycle → successive fusion up to <b>iron</b> (the dead end) → core collapse → <b>supernova</b> → neutron star or black hole, spreading the elements of life. <b>Degeneracy pressure</b> sets the endpoints; <b>close binaries</b> swap mass.</div></div>
+</section>

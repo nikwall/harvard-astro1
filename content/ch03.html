@@ -1,0 +1,121 @@
+<section class="chapter" id="ch03">
+<header class="ch-head">
+  <div class="ch-num">03</div>
+  <div class="ch-kicker">Part I · Developing Perspective</div>
+  <h1>The Science of Astronomy</h1>
+  <div class="bigq">Big question: How did we learn that Earth is a planet, and what makes an idea “scientific”?</div>
+  <div class="ch-tags"><span class="hot">Background chapter · not on the reading list</span><span>Feeds L4: Forces &amp; Motion (Kepler's laws)</span><span>Section: Historical scientific instruments</span><span class="hw">HW 1 #1 worked · p. {{page:go03}}</span><span>Book pp. 53–81</span></div>
+</header>
+
+<div class="context">
+  <div class="before"><h4>Coming in with</h4>Ch. 2's puzzles: daily and annual motions, retrograde loops, and the missing stellar parallax.</div>
+  <div><h4>This chapter</h4>How ancient observation grew into modern science: Greek models → Ptolemy → Copernicus, Tycho, Kepler, Galileo. Then the hallmarks of science and what a “theory” really is.</div>
+  <div class="after"><h4>Leads to</h4>Ch. 4: Newton explains <em>why</em> Kepler's laws work, and his version of Kepler 3 lets us weigh planets, stars and galaxies. Exoplanet orbits (Ch. 10) use the same laws.</div>
+</div>
+
+<h2><span class="k">3.1–3.2</span> Ancient roots and Greek models</h2>
+<div class="fr n40">
+  <figure style="margin-top:0"><img src="figs/ch03_mars_loops.svg"><figcaption><b>Mars seen from Earth</b> over 16 years, computed from two simple Sun-centered circular orbits. From Earth's viewpoint the path is a sequence of loops, exactly what Ptolemy's epicycles were built to copy. The epicycle is really Earth's own orbit in disguise.</figcaption></figure>
+</div>
+<p><b>Everyone does trial-and-error thinking</b>; science is the same thing done carefully and systematically. Ancient cultures were superb observers because the sky was their clock and calendar: sundials and Stonehenge-type alignments, lunar calendars (the <b>Metonic cycle</b>: 19 years ≈ 235 lunar months), Mayan predictions of Venus, Chinese records of supernovae and comets, Polynesian star navigation.</p>
+<p><b>The Greeks invented the scientific model:</b> a conceptual representation meant to explain and <em>predict</em>, judged by how well its predictions agree with observation. Their “Earth-centered” (geocentric) model had a spherical Earth at the center, surrounded by the celestial sphere. Aristotle (4th c. BCE) argued Earth is a sphere from the curved shadow in lunar eclipses. Aristarchus (3rd c. BCE) proposed a Sun-centered system, but it was rejected: no stellar parallax was seen, and a moving Earth “felt” impossible. Eratosthenes measured Earth's size (~240 BCE; see the Toolkit).</p>
+<p><b>Ptolemy's model</b> (c. 150 CE, the <em>Almagest</em>) put each planet on a small circle (<b>epicycle</b>) whose center rides a big circle around Earth. It predicted planetary positions well for ~1500 years. Islamic scholars preserved and improved Greek astronomy through the Middle Ages.</p>
+
+<h2><span class="k">3.3</span> The Copernican Revolution</h2>
+<table class="t">
+  <tr><th>Who</th><th>When</th><th>Contribution</th><th>Limitation or impact</th></tr>
+  <tr><td><b>Copernicus</b></td><td>1543</td><td>Sun-centered model; natural explanation of retrograde motion; computed planetary distances in AU and periods</td><td>Kept perfect circles, so predictions were <em>no better</em> than Ptolemy's</td></tr>
+  <tr><td><b>Tycho Brahe</b></td><td>1570s–1601</td><td>Best naked-eye data ever (to ~1 arcmin); showed that a comet and the 1572 “new star” lay beyond the Moon</td><td>Couldn't detect parallax, so he kept a hybrid Earth-centered model</td></tr>
+  <tr><td><b>Kepler</b></td><td>1609, 1619</td><td>Used Tycho's Mars data; abandoned circles for <b>ellipses</b>, giving the <b>three laws</b></td><td>Predictions became 10× more accurate: the model now fit the data</td></tr>
+  <tr><td><b>Galileo</b></td><td>1609–1632</td><td>Experiments on motion (inertia) and telescope discoveries answered the three old objections</td><td>Tried by the Church in 1633; the Vatican formally acknowledged its error in 1992</td></tr>
+</table>
+<div class="fr n40">
+  <figure style="margin-top:0"><img src="figs/ch03_kepler.svg"><figcaption><b>Kepler's first two laws</b> (exaggerated eccentricity e = 0.55). The two shaded slices take equal time.</figcaption></figure>
+</div>
+<p><b>Kepler's three laws of planetary motion:</b></p>
+<ol>
+  <li>Each planet's orbit is an <b>ellipse with the Sun at one focus</b>. Eccentricity e measures how stretched it is (0 = circle).</li>
+  <li>A planet <b>sweeps out equal areas in equal times</b>: it moves fastest at <b>perihelion</b> and slowest at <b>aphelion</b>. Earth is fastest in early January.</li>
+  <li>\(p^2 = a^3\) (p in years, a in AU): <b>more distant planets orbit more slowly</b>, both in period and in speed.</li>
+</ol>
+<p><b>Galileo vs. the three objections:</b> (1) “A moving Earth would leave birds and clouds behind.” Answer: his experiments showed <b>inertia</b>, so objects keep moving along with Earth. (2) “The heavens are perfect.” Answer: he saw mountains on the Moon and sunspots. (3) “No parallax.” Answer: his telescope resolved the Milky Way into countless stars, suggesting they are far away. The clincher: <b>Jupiter's four moons</b> orbit something other than Earth, and <b>Venus shows a full set of phases</b>, which is possible only if Venus orbits the Sun.</p>
+
+<div class="box math full"><div class="bh">Toolkit · Eratosthenes and Kepler 3</div>
+  <div class="eq-row">
+    <div class="eq"><span class="nm">Eratosthenes (~240 BCE)</span>$$\frac{7^\circ}{360^\circ}\times C = 5000\ \text{stadia}\;\Rightarrow\; C \approx 250{,}000\ \text{stadia} \approx 42{,}000\ \text{km}$$<span class="why">The Sun was overhead in Syene but 7° from the zenith in Alexandria on the solstice. The angle difference is the fraction of the full circle. The true value is 40,000 km.</span></div>
+    <div class="eq"><span class="nm">Kepler's third law (Sun or a Sun-mass star)</span>$$p^2 = a^3 \qquad [p]=\text{yr},\;[a]=\text{AU}$$<span class="why">Ellipse: perihelion = a(1 − e), aphelion = a(1 + e), and perihelion + aphelion = 2a.</span></div>
+  </div>
+  <div class="worked"><b>Worked:</b> Ceres at a = 2.77 AU: p = √(2.77³) = √21.3 = <b>4.6 yr</b>. A planet with p = 3 months = 0.25 yr around a Sun-like star: a = (0.25²)<sup>1/3</sup> = <b>0.40 AU</b>, just outside Mercury's orbit.</div>
+</div>
+<figure><img src="figs/ch03_third_law.svg"><figcaption><b>Kepler 3 in data.</b> Left: on log–log axes, p² = a³ is a straight line of slope 3/2, and dwarf planets obey it too. Right: average orbital speed falls as 1/√a (Earth: 30 km/s; Jupiter: 13 km/s).</figcaption></figure>
+
+<h2><span class="k">3.4</span> The nature of science</h2>
+<div class="fr">
+  <div class="box def"><div class="bh">Definitions</div>
+    <dl class="defs stack">
+      <dt>Hypothesis</dt><dd>A tentative, testable explanation (an “educated guess”).</dd>
+      <dt>Scientific theory</dt><dd>A <b>powerful, simple model</b> that explains a <b>wide variety</b> of observations with a few general principles and has survived <b>repeated testing</b>. It is <em>not</em> a guess, but it can never be proved true beyond all doubt.</dd>
+      <dt>Occam's razor</dt><dd>Among models that fit the data equally well, prefer the simplest.</dd>
+      <dt>Pseudoscience</dt><dd>Claims presented as science that don't follow its hallmarks (e.g., astrology fails controlled tests).</dd>
+    </dl>
+  </div>
+</div>
+<p><b>The three hallmarks of science:</b></p>
+<ol>
+  <li>It seeks explanations for observed phenomena that rely solely on <b>natural causes</b>.</li>
+  <li>It progresses by creating and testing <b>models</b> of nature that explain the observations as <b>simply</b> as possible.</li>
+  <li>A model must make <b>testable predictions</b> that would force us to revise or abandon it if they failed.</li>
+</ol>
+<p>The textbook “scientific method” (observe → hypothesize → predict → test → revise) is an idealization: Kepler's breakthrough came from years of trial and error, not a recipe. Science is self-correcting and must be <b>verifiable</b>: others must be able to repeat the observations. <b>Newton's gravity wasn't “wrong”; it was incomplete</b>. Einstein's relativity contains it as a limit and explains cases (like Mercury's orbit) that Newton's couldn't.</p>
+
+<div class="box myth full"><div class="bh">Myth vs. reality</div>
+  <div class="myth-row">
+    <div class="m"><span class="no">✗ Columbus proved Earth is round.</span> <span class="yes">✓</span> Scholars had known for ~2000 years, and even knew its size. Columbus badly <em>under</em>estimated the distance to Asia.</div>
+    <div class="m"><span class="no">✗ Eggs balance only on the equinox.</span> <span class="yes">✓</span> Nothing about gravity changes that day. Test it any day; that's science.</div>
+    <div class="m"><span class="no">✗ Copernicus's model was more accurate.</span> <span class="yes">✓</span> With perfect circles it wasn't. Kepler's ellipses made the leap.</div>
+    <div class="m"><span class="no">✗ “It's just a theory.”</span> <span class="yes">✓</span> In science, <em>theory</em> is the highest status an explanation reaches (gravity, evolution, the Big Bang).</div>
+  </div>
+</div>
+
+<h2><span class="k">Practice</span> Exam-style questions with worked answers</h2>
+<div class="qa c3">
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>In the Greek geocentric model, retrograde motion occurs when…?</div><div class="a">The planet <b>actually goes backward</b> on its epicycle around Earth. (The Sun-centered answer, Earth passing the planet, is the modern view.)</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Which was NOT an advantage of Copernicus's model?</div><div class="a"><b>Better predictions</b>: it wasn't more accurate (circles). It did explain retrograde motion naturally and gave the planets' periods and distances.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Earth is closer to the Sun in January. By Kepler's 2nd law…?</div><div class="a">Earth <b>moves faster in January</b> than in July. (Seasons are still from the tilt, not distance.)</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>A “highly eccentric orbit” means…?</div><div class="a">It's much closer to the Sun in some parts than in others (a very elongated ellipse). It's not spiraling in.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Tycho's and Galileo's contributions?</div><div class="a">Tycho: <b>precise data</b> that let Kepler find the laws. Galileo: <b>observations and experiments</b> that removed the objections to a moving Earth. (Neither discovered gravity.)</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Einstein's gravity showed Newton's theory was…?</div><div class="a"><b>Incomplete</b>, not wrong. Newton's theory still works superbly except in extreme gravity or at high speeds.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>Planet “Nearth”: Sun overhead in Nyene, 1000 km north; in Alectown the Sun's altitude is 80°. Circumference?</div><div class="a">Sun is 90° − 80° = 10° from the zenith, so the cities are 10° apart. C = (360/10) × 1000 km = <b>3.6×10<sup>4</sup> km</b>.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>Eris orbits in 557 yr. Its average distance? Compare with Pluto (39.5 AU).</div><div class="a">a = p<sup>2/3</sup> = 557<sup>2/3</sup> ≈ <b>68 AU</b>, about 1.7× Pluto's distance.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>Halley's comet: p = 76 yr, perihelion ≈ 0.60 AU (9×10<sup>7</sup> km). Its a and aphelion?</div><div class="a">a = 76<sup>2/3</sup> ≈ <b>18 AU</b>. Aphelion = 2a − perihelion ≈ 36 − 0.6 ≈ <b>35 AU</b> (5.3×10<sup>9</sup> km), beyond Neptune.</div></div>
+</div>
+
+<h2 class="more" id="go03"><span class="k">Going further</span> Homework, deeper physics &amp; more practice</h2>
+<div class="fr n40">
+  <figure style="margin-top:0"><img src="figs/ch03_venus_transit.svg"><figcaption><b>HW 1 #1 in two pictures.</b> Left: at greatest elongation the Sun–Venus–Earth angle is 90°, so Venus's orbit is sin 47° = 0.73 AU. Right: two photos of the 2004 transit, merged on the Sun's disk; Venus appears twice.</figcaption></figure>
+</div>
+<div class="box hw"><div class="bh">Homework · HW 1 #1 “Transit of Venus” (Hirshfeld Activity 2), worked</div>
+  <ol>
+    <li><span class="hp">Venus's orbit in AU.</span> At greatest elongation (47°) the angle at Venus is 90°, so R = sin 47° × 1 AU = <b>0.73 AU</b> (true value 0.723).</li>
+    <li><span class="hp">Closest approach</span> is at inferior conjunction (Sun, Venus, Earth in a line, Venus in the middle): 1 − 0.73 = <b>0.27 AU</b>. That's exactly the geometry of a transit.</li>
+    <li><span class="hp">Picture scale.</span> Printed at 100%, the Sun is about <b>113 mm</b> across; its angular diameter that day was 1890″, so the scale is 1890″/113 mm ≈ <b>17″/mm</b>.</li>
+    <li><span class="hp">Parallax angle.</span> The two Venus images are about <b>1.7 mm</b> apart (centre to centre), so θ ≈ 1.7 × 17 ≈ <b>28″</b> (1/67 of the Sun's diameter; the ratio doesn't depend on how big you print it).</li>
+    <li><span class="hp">Earth–Venus distance</span> with s = 7590 km: r = 206,265 × 7590 km / 28″ ≈ <b>5.6×10<sup>7</sup> km</b>.</li>
+    <li><span class="hp">The AU:</span> r is 0.27 AU, so 1 AU = 5.6×10<sup>7</sup>/0.27 ≈ <b>2.1×10<sup>8</sup> km</b>, about <b>+40%</b> off the true 1.5×10<sup>8</sup> km. Your ruler reading may differ by 0.1–0.2 mm (±10%), so report two significant digits.</li>
+    <li><span class="hp">Radar (1961):</span> the pulse goes there and back, so r = c t/2 = 3.0×10<sup>5</sup> km/s × 276.2 s / 2 = <b>4.1×10<sup>7</sup> km</b>; 1 AU = 4.1×10<sup>7</sup>/0.27 = <b>1.5×10<sup>8</sup> km</b> (+3%; with 0.277 AU it is exact).</li>
+    <li><span class="hp">Why not radar the Sun?</span> It has no solid surface: the pulse is absorbed and scattered in the hot, ionized corona at no definite depth, and the Sun's own powerful radio emission drowns the faint echo.</li>
+  </ol>
+  <b>Why step 6 comes out 40% high.</b> The photos were lined up on the Sun, but the Sun shifts too (by s/1 AU). You measured the <em>difference</em> of the two shifts: θ = s/r<sub>V</sub> − s/r<sub>☉</sub> = (s/AU)(1/0.27 − 1). Solving, 1 AU = 2.7 × 206,265 × 7590 km/28″ ≈ <b>1.5×10<sup>8</sup> km</b>, within a few percent. Halley saw this in 1716; the 1761 and 1769 expeditions (Cook sailed to Tahiti) gave the AU to a few percent.
+</div>
+<div class="box deep"><div class="bh">Going deeper · the other ways to get the AU (Owocki §2.3; Hirshfeld Activity 1)</div>
+  <b>Radar at greatest elongation</b> (Owocki Ex. 2-1): if the echo returns after 667 s, d<sub>EV</sub> = ct/2 = 1.0×10<sup>8</sup> km, and at greatest elongation d<sub>EV</sub> = cos 47° × 1 AU, so 1 AU = 1.0×10<sup>8</sup>/0.68 = 1.5×10<sup>8</sup> km. <b>Aristarchus</b> (c. 250 BCE, Activity 1, see Ch. 2) timed the half moon: his method was right, but the 3° error in his angle made the Sun 20× too close. The lesson for exams: <b>Kepler gives every distance in AU; one absolute measurement turns the whole solar system into kilometres.</b> Transits of Venus come in pairs 8 years apart, once every ~120 years (Venus's orbit is tilted 3.4°): 1761/69, 1874/82, 2004/12, next <b>2117/2125</b>.
+</div>
+<div class="qa c3">
+  <div class="qitem"><div class="q"><span class="tag bk">Cosmos</span>Pluto takes 248 years to orbit. Its average distance?</div><div class="a">a = p<sup>2/3</sup> = 248<sup>2/3</sup> ≈ <b>39 AU</b> (Kepler 3 with the Sun as the mass).</div></div>
+  <div class="qitem"><div class="q"><span class="tag bk">Cosmos</span>A planet orbits a 3 M<sub>☉</sub> star at 3 AU. Period?</div><div class="a">p² = a³/M = 27/3 = 9, so <b>p = 3 years</b>. Use ratios to Earth; no constants needed.</div></div>
+  <div class="qitem"><div class="q"><span class="tag bk">Hirshfeld</span>Aristarchus used 87° for the Sun–Moon angle at half moon. How much farther is the Sun than the Moon? And with the true 89.85°?</div><div class="a">d = r/cos E: cos 87° = 0.052 → <b>19×</b>; cos 89.85° = 0.0026 → <b>~380×</b>. A 3° error in the angle is a 20× error in distance.</div></div>
+</div>
+<p class="further"><b>Read more:</b> Hirshfeld Activities 1–2 (Sun's distance I–II) · Owocki §2 (angular size, parallax, the AU) · Pasachoff &amp; Filippenko ch. 5 (Ptolemy → Copernicus → Tycho → Kepler → Galileo → Newton).</p>
+
+<div class="recap"><div class="lbl">30-second<br>recap</div><div>Science grew from careful ancient sky-watching. The Greeks invented <b>testable models</b>; Ptolemy's epicycles worked for 1500 years. <b>Copernicus</b> moved the Sun to the center, <b>Tycho</b> gathered precise data, <b>Kepler</b> found ellipses, equal areas and <b>p² = a³</b>, and <b>Galileo</b> knocked down the objections (Jupiter's moons, Venus's phases). Science = natural causes + simple models + <b>falsifiable predictions</b>. A theory is a well-tested explanatory framework, not a guess.</div></div>
+</section>

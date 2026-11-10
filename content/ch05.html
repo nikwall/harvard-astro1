@@ -1,0 +1,107 @@
+<section class="chapter" id="ch05">
+<header class="ch-head">
+  <div class="ch-num">05</div>
+  <div class="ch-kicker">Part II · Key Concepts for Astronomy</div>
+  <h1>Light: The Cosmic Messenger</h1>
+  <div class="bigq">Big question: How can light from objects we can never visit tell us their composition, temperature and motion?</div>
+  <div class="ch-tags"><span class="hot">Module 2 · Weeks 3–4</span><span>L5: Light</span><span>L6: Telescopes &amp; cameras (5.3)</span><span>L7: Astronomical datasets</span><span>Section: Solar observing</span><span class="hw">HW 3 #1 worked · p. {{page:go05}}</span><span>Book pp. 105–135</span></div>
+</header>
+
+<div class="context">
+  <div class="before"><h4>Coming in with</h4>Energy (Ch. 4): kinetic, potential, radiative; temperature = average particle kinetic energy; E = mc².</div>
+  <div><h4>This chapter</h4>What light and matter are, how they interact, the three kinds of spectra, and how to read <b>composition, temperature and velocity</b> from them. Then telescopes: why size and location matter.</div>
+  <div class="after"><h4>Leads to</h4>Nearly every measurement from here on: planet atmospheres (7–8), exoplanets via Doppler (10), star temperatures and types (12), redshifts and the expanding universe (16–17), the cosmic microwave background (17).</div>
+</div>
+
+<h2><span class="k">5.1</span> Light and matter</h2>
+<figure><img src="figs/ch05_emspec.svg"><figcaption><b>The electromagnetic spectrum.</b> All of these are light, differing only in wavelength. Our eyes see a sliver (400–700 nm). The atmosphere lets through only visible light, parts of the infrared, and radio, which is why X-ray, UV and most IR astronomy happens in space.</figcaption></figure>
+<div class="fr">
+  <div class="box def"><div class="bh">Definitions</div>
+    <dl class="defs stack">
+      <dt>Wavelength λ · frequency f</dt><dd>Distance between wave crests; number of crests passing per second (Hz). For light, λ × f = c.</dd>
+      <dt>Photon</dt><dd>A particle (“piece”) of light with energy E = hf = hc/λ. Shorter λ means higher f and more energy.</dd>
+      <dt>Atom</dt><dd>A tiny nucleus (protons + neutrons, almost all the mass) surrounded by a much larger electron cloud. <b>Atomic number</b> = number of protons (which element); <b>atomic mass number</b> = protons + neutrons.</dd>
+      <dt>Isotope · ion · molecule</dt><dd>Same element with different numbers of neutrons (e.g., <sup>12</sup>C, <sup>14</sup>C); an atom with electrons added or removed; two or more atoms bound together.</dd>
+      <dt>Energy levels</dt><dd>Electrons in an atom can only have specific energies. Jumping between levels absorbs or emits a photon of exactly the energy difference.</dd>
+    </dl>
+  </div>
+</div>
+<p><b>Light is both a wave and a particle.</b> As an electromagnetic wave it travels at c = 3×10<sup>5</sup> km/s. It also comes in photons, each carrying a fixed energy. From long to short wavelength (low to high energy): <b>radio, microwave, infrared, visible, ultraviolet, X rays, gamma rays</b>. Radio waves are light, not sound, and “radiation” only means energy spreading out; it's dangerous only at high energies (UV and above).</p>
+<p><b>Four ways matter meets light:</b> <b>emission</b> (a light bulb), <b>absorption</b> (your hand warming in sunlight), <b>transmission</b> (glass, air) and <b>reflection/scattering</b> (a mirror, a movie screen). A sunflower is yellow because it <em>reflects</em> yellow light and absorbs the rest. The sky is blue because air molecules scatter blue light more than red.</p>
+<p><b>Matter is mostly empty space:</b> an atom is ~10<sup>12</sup> times bigger in volume than its nucleus. Phases (solid, liquid, gas, plasma) depend on temperature and pressure; at the high temperatures in stars, atoms become ionized <b>plasma</b>.</p>
+
+<h2><span class="k">5.2</span> Learning from light: spectra</h2>
+<div class="fl">
+  <figure style="margin-top:0"><img src="figs/ch05_spectra.svg"><figcaption><b>Kirchhoff's three spectrum types</b>, plus the Doppler shift of absorption lines.</figcaption></figure>
+</div>
+<p><b>Composition, from spectral lines.</b> Each element, ion and molecule has a unique set of energy levels, so it emits or absorbs only at <b>its own wavelengths</b>: a fingerprint. Hot thin gas gives <b>emission lines</b>; cooler gas in front of a hot source gives <b>absorption lines</b> at the same wavelengths. Hydrogen's 3→2 jump gives red H-alpha at 656.3 nm; its 2→1 jump gives UV Lyman-alpha at 121.6 nm. In 1835 Comte said we'd never know what stars are made of. Spectroscopy proved him wrong, and in 1925 Cecilia Payne(-Gaposchkin), at Harvard, showed that <b>stars are mostly hydrogen and helium</b>.</p>
+<p><b>Temperature, from the thermal (blackbody) spectrum.</b> Any opaque object emits a continuous thermal spectrum that depends only on its temperature. Two rules: <b>(1) hotter emits much more power per area</b> (∝ T<sup>4</sup>), and <b>(2) hotter peaks at shorter wavelength</b> (bluer). Stars are nearly thermal emitters, and so are you (in the infrared, peak ~10 μm).</p>
+<p><b>Motion, from the Doppler shift.</b> Lines from a source moving <b>away</b> shift to longer wavelengths (<b>redshift</b>); moving <b>toward</b> us, to shorter (<b>blueshift</b>). The shift measures only the <b>radial</b> (line-of-sight) speed. Rotation broadens lines (one side approaches, the other recedes).</p>
+<div class="clear"></div>
+<div class="fr">
+  <figure style="margin-top:0"><img src="figs/ch05_blackbody.svg"><figcaption><b>Thermal spectra</b> on log–log axes. A hotter object is brighter at <em>every</em> wavelength, and its peak (dot) moves blueward: Wien's law. The Sun peaks in visible light; you peak in the infrared.</figcaption></figure>
+</div>
+<div class="box math"><div class="bh">Toolkit · the laws of light</div>
+  <div class="eq"><span class="nm">Wave &amp; photon</span>$$c = \lambda f,\qquad E = hf = \frac{hc}{\lambda},\quad h = 6.63\times10^{-34}\,\text{J s}$$</div>
+  <div class="eq"><span class="nm">Stefan–Boltzmann law (power per m²)</span>$$\frac{P}{A} = \sigma T^4,\quad \sigma = 5.7\times10^{-8}\,\frac{\text{W}}{\text{m}^2\text{K}^4}$$</div>
+  <div class="eq"><span class="nm">Wien's law</span>$$\lambda_{\max} \approx \frac{2{,}900{,}000}{T\,[\text{K}]}\ \text{nm}$$</div>
+  <div class="eq"><span class="nm">Doppler shift (v ≪ c)</span>$$\frac{v_{\text{rad}}}{c} = \frac{\lambda_{\text{shift}} - \lambda_{\text{rest}}}{\lambda_{\text{rest}}}$$<span class="why">Positive = away (red), negative = toward (blue).</span></div>
+  <div class="worked"><b>Worked:</b> at 10,000 K, P/A = 5.7×10<sup>−8</sup> × 10<sup>16</sup> = <b>5.7×10<sup>8</sup> W/m²</b> and λ<sub>max</sub> = 290 nm (UV). Vega's Hα appears at 656.255 nm instead of 656.285 nm: v/c = −4.6×10<sup>−5</sup>, so it's moving <b>toward us at 14 km/s</b>.</div>
+</div>
+
+<h2><span class="k">5.3</span> Collecting light with telescopes</h2>
+<p>A telescope does two jobs, and <b>magnification is not one of them</b>:</p>
+<ol>
+  <li><b>Light-collecting area</b> ∝ D² (see fainter things). A 10 m telescope collects (10 m / 7 mm)² ≈ 2×10<sup>6</sup> times more light than your dark-adapted eye.</li>
+  <li><b>Angular resolution</b> (see finer detail): the <b>diffraction limit</b> θ ≈ 2.5×10<sup>5</sup> × λ/D arcseconds. Bigger D and shorter λ are sharper. The eye manages ~1′; Hubble (2.4 m) ~0.05″.</li>
+</ol>
+<p><b>Designs:</b> refractors (lenses; the largest is 1 m, Yerkes) vs. <b>reflectors</b> (mirrors; all big modern telescopes, up to 10 m Keck and the 25–39 m telescopes now being built). Instruments do <b>imaging</b> (cameras with CCD/CMOS detectors that count photons in pixels, often through filters), <b>spectroscopy</b> (splitting light by wavelength) and <b>time monitoring</b> (light curves).</p>
+<p><b>The atmosphere's problems:</b> light pollution; <b>twinkling/turbulence</b>, which blurs images to ~1″ (“seeing”); and absorption of most wavelengths. Fixes: mountaintop sites, <b>adaptive optics</b> (deformable mirrors correcting turbulence in real time), and <b>space telescopes</b> (Hubble, Chandra in X rays, JWST's 6.5 m mirror in the infrared). Space telescopes are <em>not</em> useful because they're “closer to the stars”. <b>Interferometry</b> links separate telescopes to get the resolution of one as big as their separation; the Event Horizon Telescope used an Earth-sized radio interferometer to image a black hole's shadow.</p>
+<div class="box lab full"><div class="bh">Course link · L6–L7 with your own data file</div>
+  The file <b>new-image (1).fits</b> in your <em>course work</em> folder is a real dataset: <b>NGC 7331</b>, a spiral galaxy in Pegasus ~45 million ly away (its light left ~45 million years ago, long before there were humans). It was shot from Cambridge (42.38°N) on 2026-09-24 at 02:00 UTC with a ZWO Seestar S30 Pro: 30 mm aperture, 160 mm focal length, 6 × 10 s frames stacked, 3840 × 2160 pixels of 2.9 μm, RGB via a Bayer filter. Numbers to check yourself: collecting area vs. your eye (30/7)² ≈ <b>18×</b>; diffraction limit 2.5×10<sup>5</sup> × 550 nm / 30 mm ≈ <b>4.6″</b>; pixel scale 206,265 × 2.9 μm / 160 mm ≈ <b>3.7″ per pixel</b>; field of view ≈ <b>4.0° × 2.2°</b>. Open it in <b>AstroImageJ</b> (installer in the same folder) to practise aperture photometry: sum the counts in a circle around a star and subtract the sky background per pixel × the aperture area.
+</div>
+
+<div class="box myth full"><div class="bh">Myth vs. reality</div>
+  <div class="myth-row">
+    <div class="m"><span class="no">✗ Magnification is what telescopes are for.</span> <span class="yes">✓</span> Collecting area and resolution matter; over-magnifying just enlarges the blur.</div>
+    <div class="m"><span class="no">✗ Stars twinkle by themselves.</span> <span class="yes">✓</span> Turbulence in our air bends starlight. In space, stars don't twinkle.</div>
+    <div class="m"><span class="no">✗ “Radiation” is always dangerous.</span> <span class="yes">✓</span> Radio, visible and IR are harmless; only high-energy light (UV, X, γ) damages tissue.</div>
+    <div class="m"><span class="no">✗ Tables are solid through and through.</span> <span class="yes">✓</span> Atoms are nearly empty; solidity comes from electrical forces and quantum rules.</div>
+  </div>
+</div>
+
+<h2><span class="k">Practice</span> Exam-style questions with worked answers</h2>
+<div class="qa c3">
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Compared to red light, blue light has higher frequency and…?</div><div class="a"><b>Higher energy and shorter wavelength</b> (E = hf, λ = c/f).</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>The set of lines in a star's spectrum depends mainly on its…?</div><div class="a"><b>Chemical composition</b> (plus temperature, which sets which levels are populated). Each element has its own fingerprint.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>A star's spectrum peaks in the infrared. It is…?</div><div class="a"><b>Cooler than the Sun</b> (Wien: longer λ<sub>max</sub> means lower T). Size can't be read from the peak.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>A line at 321 nm in the lab appears at 328 nm. The object is…?</div><div class="a"><b>Redshifted</b>, moving away: v = (7/321) c ≈ 0.022c ≈ 6.5×10<sup>3</sup> km/s.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Light-collecting area of a 6 m vs. a 3 m telescope?</div><div class="a"><b>4×</b>: area ∝ D², (6/3)² = 4.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Quick Quiz</span>Why does Hubble beat most ground telescopes on resolution?</div><div class="a">It's <b>above the atmosphere</b> (no turbulence). It's small (2.4 m) and not meaningfully closer to anything.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>Thermal emitters at 3000 K and 50,000 K: power per m² and peak λ?</div><div class="a">3000 K: σT<sup>4</sup> = <b>4.6×10<sup>6</sup> W/m²</b>, λ<sub>max</sub> ≈ <b>970 nm</b> (IR). 50,000 K: <b>3.6×10<sup>11</sup> W/m²</b>, λ<sub>max</sub> ≈ <b>58 nm</b> (UV).</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>If the Sun were 12,000 K instead of 6000 K?</div><div class="a">2<sup>4</sup> = <b>16× more power</b> per m², and the peak halves to ~250 nm (UV). Earth would be far hotter and UV-drenched: life as we know it is unlikely.</div></div>
+  <div class="qitem"><div class="q"><span class="tag">Problem</span>Lyman-α (rest 121.6 nm) is seen at 120.5 nm and at 122.9 nm. Velocities?</div><div class="a">(120.5−121.6)/121.6 × c ≈ −2.7×10<sup>3</sup> km/s (<b>toward</b>); (122.9−121.6)/121.6 × c ≈ <b>+3.2×10<sup>3</sup> km/s (away)</b>.</div></div>
+</div>
+
+<h2 class="more" id="go05"><span class="k">Going further</span> Homework, deeper physics &amp; more practice</h2>
+<figure style="margin-top:2px"><img src="figs/ch05_pfohonium.svg"><figcaption><b>HW 3 #1.</b> (a) Levels and all six downward jumps. (b) The hot cloud's six emission lines. (c) A transit is deeper where the planet's (cool) atmosphere absorbs.</figcaption></figure>
+<div class="box hw"><div class="bh">Homework · HW 3 #1 “Atoms from afar”, worked</div>
+  <b>Tool:</b> a jump of ΔE emits (or absorbs) a photon with λ = hc/ΔE, and <b>hc = 1240 eV·nm</b>, so <b>λ[nm] = 1240/ΔE[eV]</b>.
+  <ol type="a">
+    <li><span class="hp">Diagram:</span> levels at 0, 5.0, 6.9, 7.2 eV (panel a). With 4 levels there are 4×3/2 = <b>6 transitions</b>: 3 to the ground state and 3 between excited states.</li>
+    <li><span class="hp">Wavelengths:</span> 5.0 eV → <b>248 nm</b>; 6.9 eV → <b>180 nm</b>; 7.2 eV → <b>172 nm</b> (all ultraviolet); 1.9 eV (6.9→5.0) → <b>653 nm</b> (red, visible); 2.2 eV (7.2→5.0) → <b>564 nm</b> (yellow-green, visible); 0.3 eV (7.2→6.9) → <b>4.1 μm</b> (infrared). With all four levels populated, the cloud shows <b>six emission lines</b>; only 564 and 653 nm are visible to the eye, the UV ones need a space telescope (the atmosphere blocks λ &lt; 300 nm).</li>
+    <li><span class="hp">Exoplanet test:</span> compare the star's spectrum <b>during</b> and <b>outside</b> transits. Starlight crossing the planet's atmosphere loses photons at Pfohonium's absorption wavelengths, so the ratio (in/out) dips there: the transit is <b>deeper</b> at those λ (panel c). A cool atmosphere has its atoms in the ground state, so expect absorption at <b>172, 180 and 248 nm</b> (the excited-state lines would be weak). Confirm: all lines at the predicted λ, with one common Doppler shift, repeated over several transits.</li>
+  </ol>
+</div>
+<div class="box deep"><div class="bh">Going deeper · the Bohr atom, and why A stars have the strongest hydrogen lines (Owocki App. A–B)</div>
+  Quantized angular momentum gives hydrogen levels <b>E<sub>n</sub> = −13.6 eV/n²</b>, so λ = 91.2 nm/(1/n² − 1/m²): <b>Lyman</b> (to n = 1, UV, Lyα 121.6 nm), <b>Balmer</b> (to n = 2, visible, Hα 656 nm), <b>Paschen</b> (to n = 3, IR). Balmer <em>absorption</em> needs atoms already in n = 2 (10.2 eV up; the Boltzmann factor e<sup>−ΔE/kT</sup>, with 1 eV ↔ 11,600 K). Cool stars have too few; above ~10,000 K hydrogen is mostly <b>ionized</b> (Saha). So Balmer lines peak in <b>A stars</b>: a temperature effect, not composition (Cecilia Payne, Harvard, 1925).
+</div>
+<div class="qa c3">
+  <div class="qitem"><div class="q"><span class="tag bk">Hirshfeld</span>Activity 8: lines C (656.3 nm) and F (486.1 nm) are 85 mm apart; a dark line is 34 mm left of C. What is it?</div><div class="a">2.0 nm/mm, so 656.3 − 68 = <b>588 nm</b>: sodium D.</div></div>
+  <div class="qitem"><div class="q"><span class="tag bk">Cosmos</span>A radio station broadcasts at 95 MHz. Wavelength? Is it sound?</div><div class="a">λ = c/f = 3×10<sup>8</sup>/9.5×10<sup>7</sup> = <b>3.2 m</b>. Radio is <b>light</b>, not sound.</div></div>
+  <div class="qitem"><div class="q"><span class="tag bk">Owocki</span>Energy of the 21-cm photon of hydrogen, in eV?</div><div class="a">E = 1240 eV·nm / 2.1×10<sup>8</sup> nm = <b>5.9×10<sup>−6</sup> eV</b>, a million times less than an optical photon.</div></div>
+</div>
+<p class="further"><b>Read more:</b> Owocki §4–6, 13, App. A–B · Hirshfeld Act. 7–8 · Pasachoff &amp; Filippenko ch. 2–3.</p>
+
+<div class="recap"><div class="lbl">30-second<br>recap</div><div>Light is an EM wave made of <b>photons</b> (E = hc/λ). Atoms have discrete <b>energy levels</b>, so each element emits or absorbs a unique set of <b>spectral lines</b>: that gives <b>composition</b>. Thermal spectra give <b>temperature</b> (σT<sup>4</sup>, Wien's law). <b>Doppler</b> shifts give radial velocity. Telescopes matter for <b>collecting area (∝ D²)</b> and <b>resolution (∝ λ/D)</b>, not magnification. Space telescopes beat the atmosphere's blurring and absorption.</div></div>
+</section>

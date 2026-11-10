@@ -1,0 +1,2015 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="422.274781pt" height="130.004675pt" viewBox="0 0 422.274781 130.004675" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-30T23:00:01.296030</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 130.004675 
+L 422.274781 130.004675 
+L 422.274781 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 27.687089 53.723204 
+Q 27.687089 75.464119 27.687089 95.863394 
+" clip-path="url(#pb2114aecb4)" style="fill: none; stroke: #4a3aa7; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 28.887089 93.463394 
+L 27.687089 95.863394 
+L 26.487089 93.463394 
+z
+" clip-path="url(#pb2114aecb4)" style="fill: #4a3aa7; stroke: #4a3aa7; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 38.957858 35.565972 
+Q 38.957858 66.386071 38.957858 95.864529 
+" clip-path="url(#pb2114aecb4)" style="fill: none; stroke: #4a3aa7; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 40.157858 93.464529 
+L 38.957858 95.864529 
+L 37.757858 93.464529 
+z
+" clip-path="url(#pb2114aecb4)" style="fill: #4a3aa7; stroke: #4a3aa7; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 64.573243 35.568999 
+Q 64.573243 42.500178 64.573243 48.089716 
+" clip-path="url(#pb2114aecb4)" style="fill: none; stroke: #ff0000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 65.773243 45.689716 
+L 64.573243 48.089716 
+L 63.373243 45.689716 
+z
+" clip-path="url(#pb2114aecb4)" style="fill: #ff0000; stroke: #ff0000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 50.228627 32.70328 
+Q 50.228627 64.954383 50.228627 95.863845 
+" clip-path="url(#pb2114aecb4)" style="fill: none; stroke: #4a3aa7; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 51.428627 93.463845 
+L 50.228627 95.863845 
+L 49.028627 93.463845 
+z
+" clip-path="url(#pb2114aecb4)" style="fill: #4a3aa7; stroke: #4a3aa7; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 78.917858 32.702412 
+Q 78.917858 41.068897 78.917858 48.093741 
+" clip-path="url(#pb2114aecb4)" style="fill: none; stroke: #c3ff00; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 80.117858 45.693741 
+L 78.917858 48.093741 
+L 77.717858 45.693741 
+z
+" clip-path="url(#pb2114aecb4)" style="fill: #c3ff00; stroke: #c3ff00; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 95.311704 32.698224 
+Q 95.311704 32.9892 95.311704 31.938534 
+" clip-path="url(#pb2114aecb4)" style="fill: none; stroke: #e34948; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 96.511704 29.538534 
+L 95.311704 31.938534 
+L 94.111704 29.538534 
+z
+" clip-path="url(#pb2114aecb4)" style="fill: #e34948; stroke: #e34948; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 20.514781 99.493229 
+L 105.557858 99.493229 
+" clip-path="url(#pb2114aecb4)" style="fill: none; stroke: #16181d; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 20.514781 51.720463 
+L 105.557858 51.720463 
+" clip-path="url(#pb2114aecb4)" style="fill: none; stroke: #16181d; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 20.514781 33.566812 
+L 105.557858 33.566812 
+" clip-path="url(#pb2114aecb4)" style="fill: none; stroke: #16181d; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 20.514781 30.700446 
+L 105.557858 30.700446 
+" clip-path="url(#pb2114aecb4)" style="fill: none; stroke: #16181d; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <!-- 0 eV -->
+    <g style="fill: #4a4d55" transform="translate(7.441822 101.055338) scale(0.062 -0.062)">
+     <defs>
+      <path id="Bahnschrift-30" d="M 1766 -47 
+Q 1116 -47 792 301 
+Q 469 650 469 1244 
+L 469 3309 
+Q 469 3913 797 4256 
+Q 1125 4600 1766 4600 
+Q 2409 4600 2736 4258 
+Q 3063 3916 3063 3309 
+L 3063 1244 
+Q 3063 641 2736 297 
+Q 2409 -47 1766 -47 
+z
+M 1766 559 
+Q 2116 559 2270 742 
+Q 2425 925 2425 1244 
+L 2425 3309 
+Q 2425 3631 2270 3812 
+Q 2116 3994 1766 3994 
+Q 1416 3994 1261 3812 
+Q 1106 3631 1106 3309 
+L 1106 1244 
+Q 1106 925 1261 742 
+Q 1416 559 1766 559 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-20" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-65" d="M 1828 -47 
+Q 1150 -47 778 331 
+Q 406 709 406 1406 
+L 406 1772 
+Q 406 2497 764 2894 
+Q 1122 3291 1772 3291 
+Q 2384 3291 2720 2841 
+Q 3056 2391 3056 1578 
+L 3056 1366 
+L 869 1366 
+L 869 1878 
+L 2450 1878 
+L 2450 1878 
+Q 2422 2272 2245 2494 
+Q 2069 2716 1772 2716 
+Q 1413 2716 1213 2478 
+Q 1013 2241 1013 1806 
+L 1013 1394 
+Q 1013 991 1227 775 
+Q 1441 559 1828 559 
+Q 2022 559 2212 637 
+Q 2403 716 2553 856 
+L 2553 856 
+L 2972 438 
+L 2972 438 
+Q 2731 206 2431 79 
+Q 2131 -47 1828 -47 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-56" d="M 1575 0 
+L 94 4544 
+L 788 4544 
+L 1878 981 
+L 2969 4544 
+L 3663 4544 
+L 2181 0 
+L 1575 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-30"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(55.175781 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(82.03125 0)"/>
+     <use xlink:href="#Bahnschrift-56" transform="translate(135.644531 0)"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- 5 eV -->
+    <g style="fill: #4a4d55" transform="translate(7.487353 53.282572) scale(0.062 -0.062)">
+     <defs>
+      <path id="Bahnschrift-35" d="M 1738 -47 
+Q 1219 -47 886 251 
+Q 553 550 469 1094 
+L 469 1097 
+L 1106 1097 
+L 1106 1094 
+Q 1141 844 1306 705 
+Q 1472 566 1738 566 
+Q 2044 566 2211 770 
+Q 2378 975 2378 1347 
+L 2378 1728 
+Q 2378 2100 2211 2303 
+Q 2044 2506 1738 2506 
+Q 1572 2506 1419 2412 
+Q 1266 2319 1150 2150 
+L 569 2150 
+L 569 4544 
+L 2884 4544 
+L 2884 3938 
+L 1206 3938 
+L 1206 2916 
+Q 1325 3013 1472 3066 
+Q 1619 3119 1772 3119 
+Q 2366 3119 2691 2755 
+Q 3016 2391 3016 1728 
+L 3016 1347 
+Q 3016 681 2681 317 
+Q 2347 -47 1738 -47 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-35"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(54.443359 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(81.298828 0)"/>
+     <use xlink:href="#Bahnschrift-56" transform="translate(134.912109 0)"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- 6.9 eV -->
+    <g style="fill: #4a4d55" transform="translate(3.095041 37.230923) scale(0.062 -0.062)">
+     <defs>
+      <path id="Bahnschrift-36" d="M 1641 -47 
+Q 1038 -47 706 312 
+Q 375 672 375 1325 
+L 375 1328 
+Q 375 1622 456 1951 
+Q 538 2281 691 2588 
+L 1678 4544 
+L 2366 4544 
+L 1206 2278 
+L 1209 2391 
+Q 1372 2700 1788 2700 
+Q 2322 2700 2615 2345 
+Q 2909 1991 2909 1344 
+L 2909 1341 
+Q 2909 681 2578 317 
+Q 2247 -47 1641 -47 
+z
+M 1641 566 
+Q 1947 566 2109 753 
+Q 2272 941 2272 1288 
+L 2272 1291 
+Q 2272 1672 2100 1880 
+Q 1928 2088 1609 2088 
+Q 1325 2088 1169 1878 
+Q 1013 1669 1013 1288 
+L 1013 1284 
+Q 1013 938 1177 752 
+Q 1341 566 1641 566 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-2e" d="M 391 0 
+L 391 669 
+L 1059 669 
+L 1059 0 
+L 391 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-39" d="M 934 0 
+L 2078 2256 
+L 2075 2144 
+Q 1994 1997 1834 1931 
+Q 1675 1866 1466 1866 
+Q 975 1866 675 2230 
+Q 375 2594 375 3197 
+L 375 3200 
+Q 375 3863 708 4227 
+Q 1041 4591 1644 4591 
+Q 2247 4591 2578 4223 
+Q 2909 3856 2909 3184 
+L 2909 3181 
+Q 2909 2903 2828 2579 
+Q 2747 2256 2591 1947 
+L 1622 0 
+L 934 0 
+z
+M 1644 2447 
+Q 1944 2447 2108 2650 
+Q 2272 2853 2272 3222 
+L 2272 3225 
+Q 2272 3584 2108 3781 
+Q 1944 3978 1644 3978 
+Q 1341 3978 1177 3781 
+Q 1013 3584 1013 3222 
+L 1013 3219 
+Q 1013 2850 1177 2648 
+Q 1341 2447 1644 2447 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-36"/>
+     <use xlink:href="#Bahnschrift-2e" transform="translate(51.318359 0)"/>
+     <use xlink:href="#Bahnschrift-39" transform="translate(73.974609 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(125.292969 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(152.148438 0)"/>
+     <use xlink:href="#Bahnschrift-56" transform="translate(205.761719 0)"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <!-- 7.2 eV -->
+    <g style="fill: #4a4d55" transform="translate(3.133791 30.160553) scale(0.062 -0.062)">
+     <defs>
+      <path id="Bahnschrift-37" d="M 2816 4544 
+L 2816 3975 
+L 1641 0 
+L 963 0 
+L 2138 3938 
+L 981 3938 
+L 981 3284 
+L 344 3284 
+L 344 4544 
+L 2816 4544 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-32" d="M 400 0 
+L 400 553 
+L 1984 2666 
+Q 2122 2847 2198 3040 
+Q 2275 3234 2275 3406 
+L 2275 3413 
+Q 2275 3684 2115 3834 
+Q 1956 3984 1663 3984 
+Q 1388 3984 1214 3820 
+Q 1041 3656 1003 3356 
+L 1003 3353 
+L 344 3353 
+L 344 3356 
+Q 428 3944 772 4267 
+Q 1116 4591 1656 4591 
+Q 2269 4591 2603 4281 
+Q 2938 3972 2938 3406 
+L 2938 3403 
+Q 2938 3163 2838 2898 
+Q 2738 2634 2559 2394 
+L 1244 606 
+L 2963 606 
+L 2963 0 
+L 400 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-37"/>
+     <use xlink:href="#Bahnschrift-2e" transform="translate(50.341797 0)"/>
+     <use xlink:href="#Bahnschrift-32" transform="translate(72.998047 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(124.658203 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(151.513672 0)"/>
+     <use xlink:href="#Bahnschrift-56" transform="translate(205.126953 0)"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- 248 -->
+    <g style="fill: #4a4d55" transform="translate(33.342012 81.34141) rotate(-90) scale(0.058 -0.058)">
+     <defs>
+      <path id="Bahnschrift-34" d="M 406 697 
+L 406 1250 
+L 1931 4541 
+L 2588 4541 
+L 1100 1288 
+L 3328 1288 
+L 3328 697 
+L 406 697 
+z
+M 2366 -3 
+L 2366 2672 
+L 2988 2672 
+L 2988 -3 
+L 2366 -3 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-38" d="M 1800 -47 
+Q 1384 -47 1075 109 
+Q 766 266 594 550 
+Q 422 834 422 1216 
+L 422 1291 
+Q 422 1631 592 1931 
+Q 763 2231 1047 2384 
+Q 809 2516 662 2764 
+Q 516 3013 516 3288 
+L 516 3397 
+Q 516 3938 867 4264 
+Q 1219 4591 1800 4591 
+Q 2381 4591 2732 4264 
+Q 3084 3938 3084 3397 
+L 3084 3288 
+Q 3084 3006 2936 2759 
+Q 2788 2513 2544 2384 
+Q 2831 2231 3004 1931 
+Q 3178 1631 3178 1291 
+L 3178 1216 
+Q 3178 834 3006 550 
+Q 2834 266 2525 109 
+Q 2216 -47 1800 -47 
+z
+M 1800 566 
+Q 2134 566 2339 758 
+Q 2544 950 2544 1263 
+L 2544 1306 
+Q 2544 1622 2339 1814 
+Q 2134 2006 1800 2006 
+Q 1466 2006 1261 1814 
+Q 1056 1622 1056 1303 
+L 1056 1256 
+Q 1056 944 1261 755 
+Q 1466 566 1800 566 
+z
+M 1800 2619 
+Q 2091 2619 2269 2803 
+Q 2447 2988 2447 3291 
+L 2447 3334 
+Q 2447 3625 2269 3801 
+Q 2091 3978 1800 3978 
+Q 1509 3978 1331 3801 
+Q 1153 3625 1153 3331 
+L 1153 3284 
+Q 1153 2984 1331 2801 
+Q 1509 2619 1800 2619 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-32"/>
+     <use xlink:href="#Bahnschrift-34" transform="translate(51.660156 0)"/>
+     <use xlink:href="#Bahnschrift-38" transform="translate(108.544922 0)"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- 180 -->
+    <g style="fill: #4a4d55" transform="translate(44.612781 80.757785) rotate(-90) scale(0.058 -0.058)">
+     <defs>
+      <path id="Bahnschrift-31" d="M 1566 4544 
+L 1566 0 
+L 928 0 
+L 928 3850 
+L 281 3453 
+L 281 4113 
+L 928 4544 
+L 1566 4544 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-31"/>
+     <use xlink:href="#Bahnschrift-38" transform="translate(33.251953 0)"/>
+     <use xlink:href="#Bahnschrift-30" transform="translate(89.501953 0)"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <!-- 653 -->
+    <g style="fill: #4a4d55" transform="translate(59.973118 60.138012) scale(0.058 -0.058)">
+     <defs>
+      <path id="Bahnschrift-33" d="M 1644 -47 
+Q 1259 -47 970 92 
+Q 681 231 506 493 
+Q 331 756 281 1131 
+L 281 1131 
+L 931 1131 
+L 931 1131 
+Q 975 838 1162 702 
+Q 1350 566 1644 566 
+Q 1959 566 2134 734 
+Q 2309 903 2309 1209 
+L 2309 1347 
+Q 2309 1688 2143 1873 
+Q 1978 2059 1675 2059 
+L 1353 2059 
+L 1353 2666 
+L 1675 2666 
+Q 1944 2666 2089 2825 
+Q 2234 2984 2234 3275 
+L 2234 3416 
+Q 2234 3684 2079 3831 
+Q 1925 3978 1641 3978 
+Q 1400 3978 1233 3842 
+Q 1066 3706 1003 3413 
+L 1003 3413 
+L 356 3413 
+L 356 3413 
+Q 453 3975 789 4283 
+Q 1125 4591 1641 4591 
+Q 2228 4591 2550 4281 
+Q 2872 3972 2872 3409 
+L 2872 3334 
+Q 2872 2994 2687 2742 
+Q 2503 2491 2166 2372 
+Q 2538 2294 2742 2008 
+Q 2947 1722 2947 1281 
+L 2947 1206 
+Q 2947 609 2606 281 
+Q 2266 -47 1644 -47 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-36"/>
+     <use xlink:href="#Bahnschrift-35" transform="translate(51.318359 0)"/>
+     <use xlink:href="#Bahnschrift-33" transform="translate(105.761719 0)"/>
+    </g>
+   </g>
+   <g id="text_8">
+    <!-- 172 -->
+    <g style="fill: #4a4d55" transform="translate(55.88355 80.484551) rotate(-90) scale(0.058 -0.058)">
+     <use xlink:href="#Bahnschrift-31"/>
+     <use xlink:href="#Bahnschrift-37" transform="translate(33.251953 0)"/>
+     <use xlink:href="#Bahnschrift-32" transform="translate(83.59375 0)"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <!-- 564 -->
+    <g style="fill: #4a4d55" transform="translate(74.20128 60.138012) scale(0.058 -0.058)">
+     <use xlink:href="#Bahnschrift-35"/>
+     <use xlink:href="#Bahnschrift-36" transform="translate(54.443359 0)"/>
+     <use xlink:href="#Bahnschrift-34" transform="translate(105.761719 0)"/>
+    </g>
+   </g>
+   <g id="text_10">
+    <!-- 4.1 µm -->
+    <g style="fill: #4a4d55" transform="translate(87.052142 41.984361) scale(0.058 -0.058)">
+     <defs>
+      <path id="Bahnschrift-b5" d="M 500 -875 
+L 500 3244 
+L 1138 3244 
+L 1138 425 
+L 1103 425 
+L 1138 -875 
+L 500 -875 
+z
+M 1784 -47 
+Q 1425 -47 1250 134 
+Q 1075 316 1063 675 
+L 1138 1197 
+Q 1138 878 1300 718 
+Q 1463 559 1784 559 
+Q 2122 559 2289 718 
+Q 2456 878 2456 1197 
+L 2563 675 
+Q 2531 316 2339 134 
+Q 2147 -47 1784 -47 
+z
+M 3213 -16 
+Q 2853 -16 2653 209 
+Q 2453 434 2453 844 
+L 2453 3244 
+L 3091 3244 
+L 3091 838 
+Q 3091 722 3142 656 
+Q 3194 591 3288 591 
+L 3588 591 
+L 3588 -16 
+L 3213 -16 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-6d" d="M 4375 0 
+L 4375 1966 
+Q 4375 2309 4198 2496 
+Q 4022 2684 3697 2684 
+Q 3400 2684 3237 2503 
+Q 3075 2322 3075 1991 
+L 2947 2616 
+Q 3103 2941 3353 3116 
+Q 3603 3291 3906 3291 
+Q 4434 3291 4723 2945 
+Q 5013 2600 5013 1969 
+L 5013 0 
+L 4375 0 
+z
+M 500 0 
+L 500 3244 
+L 1138 3244 
+L 1138 0 
+L 500 0 
+z
+M 2438 0 
+L 2438 1966 
+Q 2438 2309 2269 2496 
+Q 2100 2684 1791 2684 
+Q 1478 2684 1308 2518 
+Q 1138 2353 1138 2053 
+L 1072 2678 
+Q 1222 2972 1464 3131 
+Q 1706 3291 2000 3291 
+Q 2513 3291 2794 2945 
+Q 3075 2600 3075 1969 
+L 3075 0 
+L 2438 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-34"/>
+     <use xlink:href="#Bahnschrift-2e" transform="translate(56.884766 0)"/>
+     <use xlink:href="#Bahnschrift-31" transform="translate(79.541016 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(112.792969 0)"/>
+     <use xlink:href="#Bahnschrift-b5" transform="translate(139.648438 0)"/>
+     <use xlink:href="#Bahnschrift-6d" transform="translate(199.169922 0)"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <!-- (a) Levels, all 6 downward jumps (nm) -->
+    <g style="fill: #16181d" transform="translate(2.16 19.322228) scale(0.068 -0.068)">
+     <defs>
+      <path id="Bahnschrift-28" d="M 1672 -978 
+Q 1116 -375 839 373 
+Q 563 1122 563 2025 
+Q 563 2928 839 3676 
+Q 1116 4425 1672 5028 
+L 2109 4631 
+Q 1638 4106 1403 3456 
+Q 1169 2806 1169 2025 
+Q 1169 1244 1403 594 
+Q 1638 -56 2109 -584 
+L 1672 -978 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-61" d="M 2331 0 
+L 2331 2056 
+Q 2331 2375 2161 2551 
+Q 1991 2728 1678 2728 
+Q 1488 2728 1302 2670 
+Q 1116 2613 969 2503 
+L 503 2822 
+Q 688 3044 989 3167 
+Q 1291 3291 1659 3291 
+Q 2269 3291 2603 2975 
+Q 2938 2659 2938 2084 
+L 2938 0 
+L 2331 0 
+z
+M 1538 -47 
+Q 941 -47 642 200 
+Q 344 447 344 956 
+Q 344 1441 617 1680 
+Q 891 1919 1438 1919 
+L 2359 1919 
+L 2403 1406 
+L 1441 1406 
+Q 1194 1406 1069 1295 
+Q 944 1184 944 956 
+Q 944 709 1109 590 
+Q 1275 472 1606 472 
+Q 1969 472 2150 550 
+Q 2331 628 2331 794 
+L 2397 338 
+Q 2313 206 2188 122 
+Q 2063 38 1902 -4 
+Q 1741 -47 1538 -47 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-29" d="M 500 -978 
+L 63 -584 
+Q 534 -56 768 594 
+Q 1003 1244 1003 2025 
+Q 1003 2806 768 3456 
+Q 534 4106 63 4631 
+L 500 5028 
+Q 1056 4425 1332 3676 
+Q 1609 2928 1609 2025 
+Q 1609 1122 1332 373 
+Q 1056 -375 500 -978 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-4c" d="M 563 0 
+L 563 4544 
+L 1200 4544 
+L 1200 0 
+L 563 0 
+z
+M 881 0 
+L 881 606 
+L 3481 606 
+L 3481 0 
+L 881 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-76" d="M 1616 928 
+L 2409 3244 
+L 3075 3244 
+L 1856 0 
+L 1375 0 
+L 156 3244 
+L 822 3244 
+L 1616 928 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-6c" d="M 1138 4544 
+L 1138 838 
+Q 1138 722 1189 656 
+Q 1241 591 1334 591 
+L 1634 591 
+L 1634 -16 
+L 1259 -16 
+Q 900 -16 700 209 
+Q 500 434 500 844 
+L 500 4544 
+L 1138 4544 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-73" d="M 1647 -47 
+Q 1216 -47 864 79 
+Q 513 206 234 459 
+L 234 459 
+L 613 925 
+L 613 925 
+Q 878 725 1136 625 
+Q 1394 525 1647 525 
+Q 2025 525 2214 642 
+Q 2403 759 2403 994 
+Q 2403 1175 2276 1250 
+Q 2150 1325 1945 1348 
+Q 1741 1372 1506 1388 
+Q 1309 1403 1115 1436 
+Q 922 1469 762 1555 
+Q 603 1641 508 1809 
+Q 413 1978 413 2263 
+Q 413 2778 728 3034 
+Q 1044 3291 1669 3291 
+Q 2050 3291 2378 3187 
+Q 2706 3084 2994 2872 
+L 2994 2872 
+L 2609 2406 
+L 2609 2406 
+Q 2366 2563 2130 2641 
+Q 1894 2719 1669 2719 
+Q 1344 2719 1181 2608 
+Q 1019 2497 1019 2275 
+Q 1019 2128 1131 2064 
+Q 1244 2000 1428 1981 
+Q 1613 1963 1825 1947 
+Q 2028 1934 2236 1901 
+Q 2444 1869 2619 1775 
+Q 2794 1681 2900 1497 
+Q 3006 1313 3006 994 
+Q 3006 472 2667 212 
+Q 2328 -47 1647 -47 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-2c" d="M 391 -1038 
+L 391 669 
+L 1059 669 
+L 1059 -344 
+L 391 -1038 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-64" d="M 2344 0 
+L 2344 4544 
+L 2981 4544 
+L 2981 0 
+L 2344 0 
+z
+M 1528 -56 
+Q 991 -56 698 289 
+Q 406 634 406 1263 
+L 406 1978 
+Q 406 2609 692 2954 
+Q 978 3300 1497 3300 
+Q 1784 3300 2023 3150 
+Q 2263 3000 2409 2728 
+L 2344 2066 
+Q 2344 2272 2269 2419 
+Q 2194 2566 2051 2642 
+Q 1909 2719 1706 2719 
+Q 1391 2719 1217 2522 
+Q 1044 2325 1044 1969 
+L 1044 1263 
+Q 1044 909 1217 717 
+Q 1391 525 1706 525 
+Q 1909 525 2051 604 
+Q 2194 684 2269 834 
+Q 2344 984 2344 1194 
+L 2388 509 
+Q 2300 291 2086 117 
+Q 1872 -56 1528 -56 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-6f" d="M 1744 -47 
+Q 1106 -47 756 323 
+Q 406 694 406 1366 
+L 406 1894 
+Q 406 2559 756 2925 
+Q 1106 3291 1744 3291 
+Q 2381 3291 2731 2925 
+Q 3081 2559 3081 1894 
+L 3081 1356 
+Q 3081 688 2731 320 
+Q 2381 -47 1744 -47 
+z
+M 1744 559 
+Q 2078 559 2261 768 
+Q 2444 978 2444 1356 
+L 2444 1894 
+Q 2444 2272 2261 2478 
+Q 2078 2684 1744 2684 
+Q 1413 2684 1228 2478 
+Q 1044 2272 1044 1894 
+L 1044 1356 
+Q 1044 978 1228 768 
+Q 1413 559 1744 559 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-77" d="M 1219 0 
+L 219 3244 
+L 884 3244 
+L 1459 928 
+L 2269 3244 
+L 2713 3244 
+L 3522 928 
+L 4097 3244 
+L 4763 3244 
+L 3763 0 
+L 3281 0 
+L 2491 2241 
+L 1700 0 
+L 1219 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-6e" d="M 500 0 
+L 500 3244 
+L 1138 3244 
+L 1138 0 
+L 500 0 
+z
+M 2469 0 
+L 2469 1966 
+Q 2469 2309 2292 2496 
+Q 2116 2684 1791 2684 
+Q 1478 2684 1308 2518 
+Q 1138 2353 1138 2053 
+L 1072 2678 
+Q 1222 2972 1464 3131 
+Q 1706 3291 2000 3291 
+Q 2528 3291 2817 2945 
+Q 3106 2600 3106 1969 
+L 3106 0 
+L 2469 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-72" d="M 500 0 
+L 500 3244 
+L 1138 3244 
+L 1138 0 
+L 500 0 
+z
+M 2284 2475 
+Q 2200 2578 2072 2631 
+Q 1944 2684 1775 2684 
+Q 1472 2684 1305 2517 
+Q 1138 2350 1138 2053 
+L 1072 2678 
+Q 1219 2966 1458 3128 
+Q 1697 3291 1984 3291 
+Q 2206 3291 2386 3227 
+Q 2566 3163 2700 3038 
+L 2284 2475 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-6a" d="M 63 -1319 
+L 63 -713 
+L 419 -713 
+Q 509 -713 556 -647 
+Q 603 -581 603 -466 
+L 603 3244 
+L 1241 3244 
+L 1241 -459 
+Q 1241 -869 1042 -1094 
+Q 844 -1319 481 -1319 
+L 63 -1319 
+z
+M 597 3906 
+L 597 4544 
+L 1247 4544 
+L 1247 3906 
+L 597 3906 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-75" d="M 2456 0 
+L 2456 3244 
+L 3091 3244 
+L 3091 0 
+L 2456 0 
+z
+M 1138 3244 
+L 1138 1272 
+Q 1138 931 1311 745 
+Q 1484 559 1800 559 
+Q 2116 559 2286 726 
+Q 2456 894 2456 1197 
+L 2500 519 
+Q 2413 300 2194 126 
+Q 1975 -47 1622 -47 
+Q 1084 -47 792 298 
+Q 500 644 500 1272 
+L 500 3244 
+L 1138 3244 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-70" d="M 500 -1319 
+L 500 3244 
+L 1138 3244 
+L 1138 -1319 
+L 500 -1319 
+z
+M 1953 -47 
+Q 1650 -47 1425 98 
+Q 1200 244 1094 509 
+L 1138 1188 
+Q 1138 978 1213 831 
+Q 1288 684 1430 606 
+Q 1572 528 1775 528 
+Q 2091 528 2264 720 
+Q 2438 913 2438 1263 
+L 2438 1966 
+Q 2438 2322 2264 2519 
+Q 2091 2716 1775 2716 
+Q 1572 2716 1430 2641 
+Q 1288 2566 1213 2422 
+Q 1138 2278 1138 2072 
+L 1072 2697 
+Q 1219 2981 1456 3136 
+Q 1694 3291 1984 3291 
+Q 2506 3291 2790 2945 
+Q 3075 2600 3075 1969 
+L 3075 1263 
+Q 3075 641 2781 297 
+Q 2488 -47 1953 -47 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-28"/>
+     <use xlink:href="#Bahnschrift-61" transform="translate(33.935547 0)"/>
+     <use xlink:href="#Bahnschrift-29" transform="translate(87.158203 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(121.09375 0)"/>
+     <use xlink:href="#Bahnschrift-4c" transform="translate(147.949219 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(205.273438 0)"/>
+     <use xlink:href="#Bahnschrift-76" transform="translate(258.886719 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(308.886719 0)"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(362.5 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(391.455078 0)"/>
+     <use xlink:href="#Bahnschrift-2c" transform="translate(443.310547 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(465.966797 0)"/>
+     <use xlink:href="#Bahnschrift-61" transform="translate(492.822266 0)"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(546.044922 0)"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(575 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(603.955078 0)"/>
+     <use xlink:href="#Bahnschrift-36" transform="translate(630.810547 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(682.128906 0)"/>
+     <use xlink:href="#Bahnschrift-64" transform="translate(708.984375 0)"/>
+     <use xlink:href="#Bahnschrift-6f" transform="translate(762.890625 0)"/>
+     <use xlink:href="#Bahnschrift-77" transform="translate(817.382812 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(894.726562 0)"/>
+     <use xlink:href="#Bahnschrift-77" transform="translate(950.585938 0)"/>
+     <use xlink:href="#Bahnschrift-61" transform="translate(1027.929688 0)"/>
+     <use xlink:href="#Bahnschrift-72" transform="translate(1081.152344 0)"/>
+     <use xlink:href="#Bahnschrift-64" transform="translate(1123.828125 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1177.734375 0)"/>
+     <use xlink:href="#Bahnschrift-6a" transform="translate(1204.589844 0)"/>
+     <use xlink:href="#Bahnschrift-75" transform="translate(1231.396484 0)"/>
+     <use xlink:href="#Bahnschrift-6d" transform="translate(1287.011719 0)"/>
+     <use xlink:href="#Bahnschrift-70" transform="translate(1372.65625 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(1427.050781 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1478.90625 0)"/>
+     <use xlink:href="#Bahnschrift-28" transform="translate(1505.761719 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(1539.697266 0)"/>
+     <use xlink:href="#Bahnschrift-6d" transform="translate(1595.556641 0)"/>
+     <use xlink:href="#Bahnschrift-29" transform="translate(1681.201172 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 125.537858 46.16145 
+L 420.114781 46.16145 
+L 420.114781 13.50225 
+L 125.537858 13.50225 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 99.16204 46.16145 
+L 203.811819 46.16145 
+L 203.811819 13.50225 
+L 99.16204 13.50225 
+z
+" clip-path="url(#p096b19bdb5)" style="fill: #ece9f7"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 203.811819 46.16145 
+L 257.108847 46.16145 
+L 257.108847 13.50225 
+L 203.811819 13.50225 
+z
+" clip-path="url(#p096b19bdb5)" style="fill: #fbf6e6"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 257.108847 46.16145 
+L 420.114781 46.16145 
+L 420.114781 13.50225 
+L 257.108847 13.50225 
+z
+" clip-path="url(#p096b19bdb5)" style="fill: #fbeee8"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="m901c15d282" d="M 0 0 
+L 0 2.5 
+" style="stroke: #858891; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m901c15d282" x="153.497352" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 200 -->
+      <g style="fill: #4a4d55" transform="translate(147.665352 57.27345) scale(0.072 -0.072)">
+       <use xlink:href="#Bahnschrift-32"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(51.660156 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(106.835938 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m901c15d282" x="225.324727" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 500 -->
+      <g style="fill: #4a4d55" transform="translate(219.392602 57.27345) scale(0.072 -0.072)">
+       <use xlink:href="#Bahnschrift-35"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(54.443359 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(109.619141 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m901c15d282" x="279.660038" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- 1000 -->
+      <g style="fill: #4a4d55" transform="translate(272.504476 57.27345) scale(0.072 -0.072)">
+       <use xlink:href="#Bahnschrift-31"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(33.251953 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(88.427734 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(143.603516 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m901c15d282" x="333.99535" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- 2000 -->
+      <g style="fill: #4a4d55" transform="translate(326.177162 57.27345) scale(0.072 -0.072)">
+       <use xlink:href="#Bahnschrift-32"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(51.660156 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(106.835938 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(162.011719 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m901c15d282" x="405.822725" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- 5000 -->
+      <g style="fill: #4a4d55" transform="translate(397.904412 57.27345) scale(0.072 -0.072)">
+       <use xlink:href="#Bahnschrift-35"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(54.443359 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(109.619141 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(164.794922 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_10">
+      <defs>
+       <path id="mc3abb47b8f" d="M 0 0 
+L 0 2 
+" style="stroke: #858891; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="185.281472" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="207.832663" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="239.616783" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="251.700545" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="262.167975" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="271.400903" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="365.77947" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="388.330662" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="420.114781" y="46.16145" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_19">
+    <path d="M 170.359779 46.16145 
+L 170.359779 20.03409 
+" clip-path="url(#p096b19bdb5)" style="fill: none; stroke: #4a3aa7; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 145.107459 46.16145 
+L 145.107459 20.03409 
+" clip-path="url(#p096b19bdb5)" style="fill: none; stroke: #4a3aa7; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 246.204205 46.16145 
+L 246.204205 20.03409 
+" clip-path="url(#p096b19bdb5)" style="fill: none; stroke: #ff0000; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 141.765551 46.16145 
+L 141.765551 20.03409 
+" clip-path="url(#p096b19bdb5)" style="fill: none; stroke: #4a3aa7; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 234.7108 46.16145 
+L 234.7108 20.03409 
+" clip-path="url(#p096b19bdb5)" style="fill: none; stroke: #c3ff00; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_24">
+    <path d="M 390.9004 46.16145 
+L 390.9004 20.03409 
+" clip-path="url(#p096b19bdb5)" style="fill: none; stroke: #e34948; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 125.537858 46.16145 
+L 125.537858 13.50225 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 125.537858 46.16145 
+L 420.114781 46.16145 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_17">
+    <!-- ultraviolet -->
+    <g style="fill: #4a4d55" transform="translate(168.888172 16.898807) scale(0.06 -0.06)">
+     <defs>
+      <path id="Bahnschrift-74" d="M 1344 -16 
+Q 944 -16 764 206 
+Q 584 428 584 844 
+L 584 4188 
+L 1222 4188 
+L 1222 838 
+Q 1222 722 1269 656 
+Q 1316 591 1406 591 
+L 1713 591 
+L 1713 -16 
+L 1344 -16 
+z
+M 250 2669 
+L 250 3244 
+L 1713 3244 
+L 1713 2669 
+L 250 2669 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-69" d="M 500 3906 
+L 500 4544 
+L 1138 4544 
+L 1138 3906 
+L 500 3906 
+z
+M 500 0 
+L 500 3244 
+L 1138 3244 
+L 1138 0 
+L 500 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-75"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(55.615234 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(84.570312 0)"/>
+     <use xlink:href="#Bahnschrift-72" transform="translate(117.1875 0)"/>
+     <use xlink:href="#Bahnschrift-61" transform="translate(159.863281 0)"/>
+     <use xlink:href="#Bahnschrift-76" transform="translate(213.085938 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(263.085938 0)"/>
+     <use xlink:href="#Bahnschrift-6f" transform="translate(288.183594 0)"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(342.675781 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(371.630859 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(425.244141 0)"/>
+    </g>
+   </g>
+   <g id="text_18">
+    <!-- visible -->
+    <g style="fill: #4a4d55" transform="translate(221.222385 16.898807) scale(0.06 -0.06)">
+     <defs>
+      <path id="Bahnschrift-62" d="M 1953 -47 
+Q 1650 -47 1425 98 
+Q 1200 244 1094 509 
+L 1138 1188 
+Q 1138 978 1213 831 
+Q 1288 684 1430 606 
+Q 1572 528 1775 528 
+Q 2091 528 2264 720 
+Q 2438 913 2438 1263 
+L 2438 1966 
+Q 2438 2322 2264 2519 
+Q 2091 2716 1775 2716 
+Q 1572 2716 1430 2641 
+Q 1288 2566 1213 2422 
+Q 1138 2278 1138 2072 
+L 1072 2697 
+Q 1219 2981 1456 3136 
+Q 1694 3291 1984 3291 
+Q 2506 3291 2790 2945 
+Q 3075 2600 3075 1969 
+L 3075 1263 
+Q 3075 641 2781 297 
+Q 2488 -47 1953 -47 
+z
+M 500 0 
+L 500 4544 
+L 1138 4544 
+L 1138 0 
+L 500 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-76"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(50 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(75.097656 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(126.953125 0)"/>
+     <use xlink:href="#Bahnschrift-62" transform="translate(152.050781 0)"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(206.445312 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(235.400391 0)"/>
+    </g>
+   </g>
+   <g id="text_19">
+    <!-- infrared -->
+    <g style="fill: #4a4d55" transform="translate(327.058413 16.898807) scale(0.06 -0.06)">
+     <defs>
+      <path id="Bahnschrift-66" d="M 594 0 
+L 594 3684 
+Q 594 4113 791 4328 
+Q 988 4544 1403 4544 
+L 1872 4544 
+L 1872 3938 
+L 1416 3938 
+Q 1319 3938 1275 3864 
+Q 1231 3791 1231 3691 
+L 1231 0 
+L 594 0 
+z
+M 250 2700 
+L 250 3244 
+L 1872 3244 
+L 1872 2700 
+L 250 2700 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-69"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(25.097656 0)"/>
+     <use xlink:href="#Bahnschrift-66" transform="translate(80.957031 0)"/>
+     <use xlink:href="#Bahnschrift-72" transform="translate(112.646484 0)"/>
+     <use xlink:href="#Bahnschrift-61" transform="translate(155.322266 0)"/>
+     <use xlink:href="#Bahnschrift-72" transform="translate(208.544922 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(251.220703 0)"/>
+     <use xlink:href="#Bahnschrift-64" transform="translate(304.833984 0)"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <!-- 248 -->
+    <g style="fill: #4a4d55" transform="translate(172.676872 31.791402) scale(0.058 -0.058)">
+     <use xlink:href="#Bahnschrift-32"/>
+     <use xlink:href="#Bahnschrift-34" transform="translate(51.660156 0)"/>
+     <use xlink:href="#Bahnschrift-38" transform="translate(108.544922 0)"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <!-- 180 -->
+    <g style="fill: #4a4d55" transform="translate(147.424552 31.791402) scale(0.058 -0.058)">
+     <use xlink:href="#Bahnschrift-31"/>
+     <use xlink:href="#Bahnschrift-38" transform="translate(33.251953 0)"/>
+     <use xlink:href="#Bahnschrift-30" transform="translate(89.501953 0)"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <!-- 653 -->
+    <g style="fill: #4a4d55" transform="translate(248.521299 31.791402) scale(0.058 -0.058)">
+     <use xlink:href="#Bahnschrift-36"/>
+     <use xlink:href="#Bahnschrift-35" transform="translate(51.318359 0)"/>
+     <use xlink:href="#Bahnschrift-33" transform="translate(105.761719 0)"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <!-- 172 -->
+    <g style="fill: #4a4d55" transform="translate(131.533375 31.791402) scale(0.058 -0.058)">
+     <use xlink:href="#Bahnschrift-31"/>
+     <use xlink:href="#Bahnschrift-37" transform="translate(33.251953 0)"/>
+     <use xlink:href="#Bahnschrift-32" transform="translate(83.59375 0)"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <!-- 564 -->
+    <g style="fill: #4a4d55" transform="translate(222.889968 31.791402) scale(0.058 -0.058)">
+     <use xlink:href="#Bahnschrift-35"/>
+     <use xlink:href="#Bahnschrift-36" transform="translate(54.443359 0)"/>
+     <use xlink:href="#Bahnschrift-34" transform="translate(105.761719 0)"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <!-- 4130 -->
+    <g style="fill: #4a4d55" transform="translate(393.217493 31.791402) scale(0.058 -0.058)">
+     <use xlink:href="#Bahnschrift-34"/>
+     <use xlink:href="#Bahnschrift-31" transform="translate(56.884766 0)"/>
+     <use xlink:href="#Bahnschrift-33" transform="translate(90.136719 0)"/>
+     <use xlink:href="#Bahnschrift-30" transform="translate(143.017578 0)"/>
+    </g>
+   </g>
+   <g id="text_26">
+    <!-- (b) Emission spectrum of the hot, thin cloud: 6 bright lines (2 visible: 564 green, 653 red) -->
+    <g style="fill: #16181d" transform="translate(125.537858 7.50225) scale(0.068 -0.068)">
+     <defs>
+      <path id="Bahnschrift-45" d="M 563 0 
+L 563 4544 
+L 1200 4544 
+L 1200 0 
+L 563 0 
+z
+M 872 0 
+L 872 606 
+L 3481 606 
+L 3481 0 
+L 872 0 
+z
+M 872 1953 
+L 872 2559 
+L 3138 2559 
+L 3138 1953 
+L 872 1953 
+z
+M 872 3938 
+L 872 4544 
+L 3481 4544 
+L 3481 3938 
+L 872 3938 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-63" d="M 1809 -47 
+Q 1141 -47 773 322 
+Q 406 691 406 1363 
+L 406 1897 
+Q 406 2563 773 2927 
+Q 1141 3291 1809 3291 
+Q 2191 3291 2497 3156 
+Q 2803 3022 2984 2772 
+L 2984 2772 
+L 2525 2359 
+L 2525 2359 
+Q 2391 2516 2206 2600 
+Q 2022 2684 1819 2684 
+Q 1450 2684 1247 2478 
+Q 1044 2272 1044 1897 
+L 1044 1363 
+Q 1044 978 1247 768 
+Q 1450 559 1819 559 
+Q 2022 559 2206 650 
+Q 2391 741 2525 906 
+L 2525 906 
+L 2984 463 
+L 2984 463 
+Q 2803 219 2495 86 
+Q 2188 -47 1809 -47 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-68" d="M 500 0 
+L 500 4544 
+L 1138 4544 
+L 1138 0 
+L 500 0 
+z
+M 2469 0 
+L 2469 1966 
+Q 2469 2309 2292 2496 
+Q 2116 2684 1791 2684 
+Q 1478 2684 1308 2521 
+Q 1138 2359 1138 2063 
+L 1072 2688 
+Q 1222 2975 1464 3133 
+Q 1706 3291 2000 3291 
+Q 2528 3291 2817 2945 
+Q 3106 2600 3106 1969 
+L 3106 0 
+L 2469 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-3a" d="M 391 0 
+L 391 669 
+L 1059 669 
+L 1059 0 
+L 391 0 
+z
+M 391 2624 
+L 391 3293 
+L 1059 3293 
+L 1059 2624 
+L 391 2624 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-67" d="M 1588 -1319 
+Q 1222 -1319 933 -1183 
+Q 644 -1047 484 -800 
+L 484 -800 
+L 916 -409 
+L 916 -409 
+Q 1041 -581 1214 -675 
+Q 1388 -769 1578 -769 
+Q 1944 -769 2144 -567 
+Q 2344 -366 2344 3 
+L 2344 3244 
+L 2981 3244 
+L 2981 97 
+Q 2981 -578 2617 -948 
+Q 2253 -1319 1588 -1319 
+z
+M 1528 -56 
+Q 991 -56 698 289 
+Q 406 634 406 1263 
+L 406 1978 
+Q 406 2609 692 2954 
+Q 978 3300 1497 3300 
+Q 1784 3300 2023 3150 
+Q 2263 3000 2409 2728 
+L 2344 2066 
+Q 2344 2272 2269 2419 
+Q 2194 2566 2051 2642 
+Q 1909 2719 1706 2719 
+Q 1391 2719 1217 2522 
+Q 1044 2325 1044 1969 
+L 1044 1263 
+Q 1044 909 1217 717 
+Q 1391 525 1706 525 
+Q 1909 525 2051 604 
+Q 2194 684 2269 834 
+Q 2344 984 2344 1194 
+L 2388 509 
+Q 2300 291 2086 117 
+Q 1872 -56 1528 -56 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-28"/>
+     <use xlink:href="#Bahnschrift-62" transform="translate(33.935547 0)"/>
+     <use xlink:href="#Bahnschrift-29" transform="translate(88.330078 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(122.265625 0)"/>
+     <use xlink:href="#Bahnschrift-45" transform="translate(149.121094 0)"/>
+     <use xlink:href="#Bahnschrift-6d" transform="translate(208.886719 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(294.53125 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(319.628906 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(371.484375 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(423.339844 0)"/>
+     <use xlink:href="#Bahnschrift-6f" transform="translate(448.4375 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(502.929688 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(558.789062 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(585.644531 0)"/>
+     <use xlink:href="#Bahnschrift-70" transform="translate(637.5 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(691.894531 0)"/>
+     <use xlink:href="#Bahnschrift-63" transform="translate(745.507812 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(795.3125 0)"/>
+     <use xlink:href="#Bahnschrift-72" transform="translate(827.929688 0)"/>
+     <use xlink:href="#Bahnschrift-75" transform="translate(870.605469 0)"/>
+     <use xlink:href="#Bahnschrift-6d" transform="translate(926.220703 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1011.865234 0)"/>
+     <use xlink:href="#Bahnschrift-6f" transform="translate(1038.720703 0)"/>
+     <use xlink:href="#Bahnschrift-66" transform="translate(1093.212891 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1124.902344 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(1151.757812 0)"/>
+     <use xlink:href="#Bahnschrift-68" transform="translate(1184.375 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(1240.234375 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1293.847656 0)"/>
+     <use xlink:href="#Bahnschrift-68" transform="translate(1320.703125 0)"/>
+     <use xlink:href="#Bahnschrift-6f" transform="translate(1376.5625 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(1431.054688 0)"/>
+     <use xlink:href="#Bahnschrift-2c" transform="translate(1463.671875 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1486.328125 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(1513.183594 0)"/>
+     <use xlink:href="#Bahnschrift-68" transform="translate(1545.800781 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(1601.660156 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(1626.757812 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1682.617188 0)"/>
+     <use xlink:href="#Bahnschrift-63" transform="translate(1709.472656 0)"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(1759.277344 0)"/>
+     <use xlink:href="#Bahnschrift-6f" transform="translate(1788.232422 0)"/>
+     <use xlink:href="#Bahnschrift-75" transform="translate(1842.724609 0)"/>
+     <use xlink:href="#Bahnschrift-64" transform="translate(1898.339844 0)"/>
+     <use xlink:href="#Bahnschrift-3a" transform="translate(1952.246094 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1974.902344 0)"/>
+     <use xlink:href="#Bahnschrift-36" transform="translate(2001.757812 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(2053.076172 0)"/>
+     <use xlink:href="#Bahnschrift-62" transform="translate(2079.931641 0)"/>
+     <use xlink:href="#Bahnschrift-72" transform="translate(2134.326172 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(2177.001953 0)"/>
+     <use xlink:href="#Bahnschrift-67" transform="translate(2202.099609 0)"/>
+     <use xlink:href="#Bahnschrift-68" transform="translate(2256.005859 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(2311.865234 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(2344.482422 0)"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(2371.337891 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(2400.292969 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(2425.390625 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(2481.25 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(2534.863281 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(2586.71875 0)"/>
+     <use xlink:href="#Bahnschrift-28" transform="translate(2613.574219 0)"/>
+     <use xlink:href="#Bahnschrift-32" transform="translate(2647.509766 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(2699.169922 0)"/>
+     <use xlink:href="#Bahnschrift-76" transform="translate(2726.025391 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(2776.025391 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(2801.123047 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(2852.978516 0)"/>
+     <use xlink:href="#Bahnschrift-62" transform="translate(2878.076172 0)"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(2932.470703 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(2961.425781 0)"/>
+     <use xlink:href="#Bahnschrift-3a" transform="translate(3015.039062 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(3037.695312 0)"/>
+     <use xlink:href="#Bahnschrift-35" transform="translate(3064.550781 0)"/>
+     <use xlink:href="#Bahnschrift-36" transform="translate(3118.994141 0)"/>
+     <use xlink:href="#Bahnschrift-34" transform="translate(3170.3125 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(3227.197266 0)"/>
+     <use xlink:href="#Bahnschrift-67" transform="translate(3254.052734 0)"/>
+     <use xlink:href="#Bahnschrift-72" transform="translate(3307.958984 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(3350.634766 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(3404.248047 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(3457.861328 0)"/>
+     <use xlink:href="#Bahnschrift-2c" transform="translate(3513.720703 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(3536.376953 0)"/>
+     <use xlink:href="#Bahnschrift-36" transform="translate(3563.232422 0)"/>
+     <use xlink:href="#Bahnschrift-35" transform="translate(3614.550781 0)"/>
+     <use xlink:href="#Bahnschrift-33" transform="translate(3668.994141 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(3721.875 0)"/>
+     <use xlink:href="#Bahnschrift-72" transform="translate(3748.730469 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(3791.40625 0)"/>
+     <use xlink:href="#Bahnschrift-64" transform="translate(3845.019531 0)"/>
+     <use xlink:href="#Bahnschrift-29" transform="translate(3898.925781 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_14">
+    <path d="M 125.537858 103.31505 
+L 420.114781 103.31505 
+L 420.114781 70.65585 
+L 125.537858 70.65585 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 99.16204 103.31505 
+L 203.811819 103.31505 
+L 203.811819 70.65585 
+L 99.16204 70.65585 
+z
+" clip-path="url(#pfd1d9057d1)" style="fill: #ece9f7"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 203.811819 103.31505 
+L 257.108847 103.31505 
+L 257.108847 70.65585 
+L 203.811819 70.65585 
+z
+" clip-path="url(#pfd1d9057d1)" style="fill: #fbf6e6"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 257.108847 103.31505 
+L 420.114781 103.31505 
+L 420.114781 70.65585 
+L 257.108847 70.65585 
+z
+" clip-path="url(#pfd1d9057d1)" style="fill: #fbeee8"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_15">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m901c15d282" x="153.497352" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <!-- 200 -->
+      <g style="fill: #4a4d55" transform="translate(147.665352 114.42705) scale(0.072 -0.072)">
+       <use xlink:href="#Bahnschrift-32"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(51.660156 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(106.835938 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m901c15d282" x="225.324727" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <!-- 500 -->
+      <g style="fill: #4a4d55" transform="translate(219.392602 114.42705) scale(0.072 -0.072)">
+       <use xlink:href="#Bahnschrift-35"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(54.443359 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(109.619141 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m901c15d282" x="279.660038" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <!-- 1000 -->
+      <g style="fill: #4a4d55" transform="translate(272.504476 114.42705) scale(0.072 -0.072)">
+       <use xlink:href="#Bahnschrift-31"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(33.251953 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(88.427734 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(143.603516 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m901c15d282" x="333.99535" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <!-- 2000 -->
+      <g style="fill: #4a4d55" transform="translate(326.177162 114.42705) scale(0.072 -0.072)">
+       <use xlink:href="#Bahnschrift-32"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(51.660156 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(106.835938 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(162.011719 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m901c15d282" x="405.822725" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <!-- 5000 -->
+      <g style="fill: #4a4d55" transform="translate(397.904412 114.42705) scale(0.072 -0.072)">
+       <use xlink:href="#Bahnschrift-35"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(54.443359 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(109.619141 0)"/>
+       <use xlink:href="#Bahnschrift-30" transform="translate(164.794922 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="185.281472" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="207.832663" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="239.616783" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="251.700545" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="262.167975" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="271.400903" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="365.77947" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="388.330662" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#mc3abb47b8f" x="420.114781" y="103.31505" style="fill: #858891; stroke: #858891; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_32">
+     <!-- wavelength (nm, log scale) -->
+     <g style="fill: #4a4d55" transform="translate(224.73007 126.195925) scale(0.08 -0.08)">
+      <use xlink:href="#Bahnschrift-77"/>
+      <use xlink:href="#Bahnschrift-61" transform="translate(77.34375 0)"/>
+      <use xlink:href="#Bahnschrift-76" transform="translate(130.566406 0)"/>
+      <use xlink:href="#Bahnschrift-65" transform="translate(180.566406 0)"/>
+      <use xlink:href="#Bahnschrift-6c" transform="translate(234.179688 0)"/>
+      <use xlink:href="#Bahnschrift-65" transform="translate(263.134766 0)"/>
+      <use xlink:href="#Bahnschrift-6e" transform="translate(316.748047 0)"/>
+      <use xlink:href="#Bahnschrift-67" transform="translate(372.607422 0)"/>
+      <use xlink:href="#Bahnschrift-74" transform="translate(426.513672 0)"/>
+      <use xlink:href="#Bahnschrift-68" transform="translate(459.130859 0)"/>
+      <use xlink:href="#Bahnschrift-20" transform="translate(514.990234 0)"/>
+      <use xlink:href="#Bahnschrift-28" transform="translate(541.845703 0)"/>
+      <use xlink:href="#Bahnschrift-6e" transform="translate(575.78125 0)"/>
+      <use xlink:href="#Bahnschrift-6d" transform="translate(631.640625 0)"/>
+      <use xlink:href="#Bahnschrift-2c" transform="translate(717.285156 0)"/>
+      <use xlink:href="#Bahnschrift-20" transform="translate(739.941406 0)"/>
+      <use xlink:href="#Bahnschrift-6c" transform="translate(766.796875 0)"/>
+      <use xlink:href="#Bahnschrift-6f" transform="translate(795.751953 0)"/>
+      <use xlink:href="#Bahnschrift-67" transform="translate(850.244141 0)"/>
+      <use xlink:href="#Bahnschrift-20" transform="translate(904.150391 0)"/>
+      <use xlink:href="#Bahnschrift-73" transform="translate(931.005859 0)"/>
+      <use xlink:href="#Bahnschrift-63" transform="translate(982.861328 0)"/>
+      <use xlink:href="#Bahnschrift-61" transform="translate(1032.666016 0)"/>
+      <use xlink:href="#Bahnschrift-6c" transform="translate(1085.888672 0)"/>
+      <use xlink:href="#Bahnschrift-65" transform="translate(1114.84375 0)"/>
+      <use xlink:href="#Bahnschrift-29" transform="translate(1168.457031 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4"/>
+   <g id="line2d_39">
+    <path d="M 125.537858 100.04913 
+L 140.716159 99.999059 
+L 140.863521 99.838778 
+L 141.010883 99.335213 
+L 141.158245 98.094045 
+L 141.45297 92.383866 
+L 141.747694 87.495707 
+L 141.895056 88.504954 
+L 142.484505 99.16337 
+L 142.779229 99.98597 
+L 143.221315 100.048915 
+L 143.958126 100.024747 
+L 144.105488 99.930828 
+L 144.25285 99.585052 
+L 144.400212 98.578974 
+L 144.694937 92.316716 
+L 144.989661 83.00432 
+L 145.137023 81.841125 
+L 145.284385 84.457167 
+L 145.726472 97.483541 
+L 146.021196 99.799934 
+L 146.31592 100.039434 
+L 148.37899 100.04913 
+L 169.304415 99.96362 
+L 169.451777 99.686789 
+L 169.599139 98.808665 
+L 169.746501 96.622328 
+L 170.041225 86.37533 
+L 170.33595 77.253594 
+L 170.483312 78.897386 
+L 171.07276 98.366058 
+L 171.367485 99.926875 
+L 171.662209 100.045584 
+L 176.967246 100.04913 
+L 233.849033 99.955613 
+L 233.996395 99.749777 
+L 234.291119 98.441243 
+L 234.585844 96.428731 
+L 234.733206 96.140022 
+L 234.880568 96.665418 
+L 235.322654 99.473861 
+L 235.617379 99.992006 
+L 236.059465 100.048809 
+L 245.195918 100.022298 
+L 245.34328 99.944738 
+L 245.490642 99.721154 
+L 245.785367 98.352704 
+L 246.080091 96.372321 
+L 246.227453 96.154739 
+L 246.374815 96.74273 
+L 246.816902 99.519043 
+L 247.111626 99.99854 
+L 247.701074 100.049101 
+L 390.052904 99.975223 
+L 390.200266 99.819319 
+L 390.494991 98.884989 
+L 390.789715 97.578656 
+L 390.937077 97.460148 
+L 391.231801 98.586793 
+L 391.526526 99.711613 
+L 391.82125 100.017617 
+L 392.558061 100.049129 
+L 420.114781 100.04913 
+L 420.114781 100.04913 
+" clip-path="url(#pfd1d9057d1)" style="fill: none; stroke: #2a78d6; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 125.537858 103.31505 
+L 125.537858 70.65585 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 125.537858 103.31505 
+L 420.114781 103.31505 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_33">
+    <!-- (c) Transit depth vs. wavelength: deepest at the ground-state lines 172, 180, 248 nm -->
+    <g style="fill: #16181d" transform="translate(125.537858 64.65585) scale(0.068 -0.068)">
+     <defs>
+      <path id="Bahnschrift-54" d="M 1222 0 
+L 1222 4172 
+L 1859 4172 
+L 1859 0 
+L 1222 0 
+z
+M -63 3938 
+L -63 4544 
+L 3144 4544 
+L 3144 3938 
+L -63 3938 
+z
+" transform="scale(0.015625)"/>
+      <path id="Bahnschrift-2d" d="M 500 1931 
+L 2600 1931 
+L 2600 1325 
+L 500 1325 
+L 500 1931 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Bahnschrift-28"/>
+     <use xlink:href="#Bahnschrift-63" transform="translate(33.935547 0)"/>
+     <use xlink:href="#Bahnschrift-29" transform="translate(83.740234 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(117.675781 0)"/>
+     <use xlink:href="#Bahnschrift-54" transform="translate(144.53125 0)"/>
+     <use xlink:href="#Bahnschrift-72" transform="translate(192.675781 0)"/>
+     <use xlink:href="#Bahnschrift-61" transform="translate(235.351562 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(288.574219 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(344.433594 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(396.289062 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(421.386719 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(454.003906 0)"/>
+     <use xlink:href="#Bahnschrift-64" transform="translate(480.859375 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(534.765625 0)"/>
+     <use xlink:href="#Bahnschrift-70" transform="translate(588.378906 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(642.773438 0)"/>
+     <use xlink:href="#Bahnschrift-68" transform="translate(675.390625 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(731.25 0)"/>
+     <use xlink:href="#Bahnschrift-76" transform="translate(758.105469 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(808.105469 0)"/>
+     <use xlink:href="#Bahnschrift-2e" transform="translate(859.960938 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(882.617188 0)"/>
+     <use xlink:href="#Bahnschrift-77" transform="translate(909.472656 0)"/>
+     <use xlink:href="#Bahnschrift-61" transform="translate(986.816406 0)"/>
+     <use xlink:href="#Bahnschrift-76" transform="translate(1040.039062 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(1090.039062 0)"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(1143.652344 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(1172.607422 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(1226.220703 0)"/>
+     <use xlink:href="#Bahnschrift-67" transform="translate(1282.080078 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(1335.986328 0)"/>
+     <use xlink:href="#Bahnschrift-68" transform="translate(1368.603516 0)"/>
+     <use xlink:href="#Bahnschrift-3a" transform="translate(1424.462891 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1447.119141 0)"/>
+     <use xlink:href="#Bahnschrift-64" transform="translate(1473.974609 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(1527.880859 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(1581.494141 0)"/>
+     <use xlink:href="#Bahnschrift-70" transform="translate(1635.107422 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(1689.501953 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(1743.115234 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(1794.970703 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1827.587891 0)"/>
+     <use xlink:href="#Bahnschrift-61" transform="translate(1854.443359 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(1907.666016 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(1940.283203 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(1967.138672 0)"/>
+     <use xlink:href="#Bahnschrift-68" transform="translate(1999.755859 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(2055.615234 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(2109.228516 0)"/>
+     <use xlink:href="#Bahnschrift-67" transform="translate(2136.083984 0)"/>
+     <use xlink:href="#Bahnschrift-72" transform="translate(2189.990234 0)"/>
+     <use xlink:href="#Bahnschrift-6f" transform="translate(2232.666016 0)"/>
+     <use xlink:href="#Bahnschrift-75" transform="translate(2287.158203 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(2342.773438 0)"/>
+     <use xlink:href="#Bahnschrift-64" transform="translate(2398.632812 0)"/>
+     <use xlink:href="#Bahnschrift-2d" transform="translate(2452.539062 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(2500.488281 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(2552.34375 0)"/>
+     <use xlink:href="#Bahnschrift-61" transform="translate(2584.960938 0)"/>
+     <use xlink:href="#Bahnschrift-74" transform="translate(2638.183594 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(2670.800781 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(2724.414062 0)"/>
+     <use xlink:href="#Bahnschrift-6c" transform="translate(2751.269531 0)"/>
+     <use xlink:href="#Bahnschrift-69" transform="translate(2780.224609 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(2805.322266 0)"/>
+     <use xlink:href="#Bahnschrift-65" transform="translate(2861.181641 0)"/>
+     <use xlink:href="#Bahnschrift-73" transform="translate(2914.794922 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(2966.650391 0)"/>
+     <use xlink:href="#Bahnschrift-31" transform="translate(2993.505859 0)"/>
+     <use xlink:href="#Bahnschrift-37" transform="translate(3026.757812 0)"/>
+     <use xlink:href="#Bahnschrift-32" transform="translate(3077.099609 0)"/>
+     <use xlink:href="#Bahnschrift-2c" transform="translate(3128.759766 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(3151.416016 0)"/>
+     <use xlink:href="#Bahnschrift-31" transform="translate(3178.271484 0)"/>
+     <use xlink:href="#Bahnschrift-38" transform="translate(3211.523438 0)"/>
+     <use xlink:href="#Bahnschrift-30" transform="translate(3267.773438 0)"/>
+     <use xlink:href="#Bahnschrift-2c" transform="translate(3322.949219 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(3345.605469 0)"/>
+     <use xlink:href="#Bahnschrift-32" transform="translate(3372.460938 0)"/>
+     <use xlink:href="#Bahnschrift-34" transform="translate(3424.121094 0)"/>
+     <use xlink:href="#Bahnschrift-38" transform="translate(3481.005859 0)"/>
+     <use xlink:href="#Bahnschrift-20" transform="translate(3537.255859 0)"/>
+     <use xlink:href="#Bahnschrift-6e" transform="translate(3564.111328 0)"/>
+     <use xlink:href="#Bahnschrift-6d" transform="translate(3619.970703 0)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb2114aecb4">
+   <rect x="7.194781" y="13.50225" width="102.461538" height="89.8128"/>
+  </clipPath>
+  <clipPath id="p096b19bdb5">
+   <rect x="125.537858" y="13.50225" width="294.576923" height="32.6592"/>
+  </clipPath>
+  <clipPath id="pfd1d9057d1">
+   <rect x="125.537858" y="70.65585" width="294.576923" height="32.6592"/>
+  </clipPath>
+ </defs>
+</svg>
