@@ -46,7 +46,7 @@ Then open http://localhost:5173. (Opening `index.html` straight from disk won't 
    S6: [{ title: "Transit worksheet", url: "https://example.org/worksheet" }],
    ```
 
-3. Commit and push. Vercel redeploys automatically.
+3. Commit and push. GitHub Pages republishes the site within a minute or two.
 
 New homework: replace the `pending: true` placeholder for `hw4` … `hw10` in `js/course.js` with its parts (same shape as `hw1`).
 
@@ -62,7 +62,9 @@ It copies the chapter HTML, figures and KaTeX, and regenerates `js/manifest.js` 
 
 ## Hosting
 
-Deployed on Vercel from this repository's `main` branch (static, no build). `vercel.json` and `robots.txt` keep the site out of search engines.
+GitHub Pages serves the site straight from this repository's `main` branch (static, no build; `.nojekyll` switches off Jekyll): https://nikwall.github.io/harvard-astro1/
+
+The repository is private, but the site itself can be opened by anyone who has the link. A `noindex` robots tag in `index.html` and in every lesson file keeps it out of search engines. To take the site offline, switch Pages off under the repository's Settings → Pages.
 
 ## Sources and credits
 

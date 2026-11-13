@@ -24,6 +24,9 @@ for f in sorted(glob.glob(os.path.join(SRC, "content", "ch*.html"))) + [os.path.
     html = open(f, encoding="utf-8").read()
     html = html.replace('src="../figs/', 'src="figs/')
     html = re.sub(r"<!-- ADD:(START|END) -->\n?", "", html)
+    # The lesson files are fragments that the app loads. If a crawler opens one directly, this tag
+    # (which the HTML parser puts into the implied <head>) keeps it out of search engines.
+    html = '<meta name="robots" content="noindex, nofollow">\n' + html
     name = "appendix.html" if "appendix" in f else os.path.basename(f)
     open(os.path.join(ROOT, "content", name), "w", encoding="utf-8", newline="\n").write(html)
     print("content/" + name)
