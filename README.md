@@ -64,7 +64,7 @@ It copies the chapter HTML, figures and KaTeX, and regenerates `js/manifest.js` 
 
 GitHub Pages serves the site straight from this repository's `main` branch (static, no build; `.nojekyll` switches off Jekyll): https://nikwall.github.io/harvard-astro1/
 
-The repository is private, but the site itself can be opened by anyone who has the link. A `noindex` robots tag in `index.html` and in every lesson file keeps it out of search engines. To take the site offline, switch Pages off under the repository's Settings → Pages.
+The repository and the site are both public (GitHub's free plan offers Pages only for public repositories). A `noindex` robots tag in `index.html` and in every lesson file keeps the site out of search engines. To take the site offline, switch Pages off under the repository's Settings → Pages; to hide the source again, set the repository back to private there too (that also switches Pages off on the free plan).
 
 ## Sources and credits
 
