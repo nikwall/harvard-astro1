@@ -50,6 +50,18 @@ Then open http://localhost:5173. (Opening `index.html` straight from disk won't 
 
 New homework: replace the `pending: true` placeholder for `hw4` … `hw10` in `js/course.js` with its parts (same shape as `hw1`).
 
+## Writing questions
+
+Questions live in `js/questions/chNN.js`: `s` is the lesson section the question belongs to, `o` the four options, `a` the index of the right one, `e` the explanation shown after answering. The app shuffles the options every time, so the order in the file doesn't matter. Append new questions at the end of a chapter's list (saved progress is keyed by position).
+
+Keep the four options similar in length and form. If the right answer is usually the longest, the quiz can be passed without knowing anything. Check with:
+
+```bash
+node scripts/check_questions.js
+```
+
+It validates the structure and reports how often the right answer is the longest option (chance is 25%).
+
 ## Updating the lesson text
 
 The lessons come from the *ASTRON 1 Study & Recap Guide* source (`../course work/study_guide_src`). Edit it there, then run:
