@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Harvard ASTRO1",
+  "short_name": "ASTRO1",
+  "description": "A self-paced study course for ASTRON 1, The Big Questions in Astronomy, Harvard College (FAS), Fall 2026: lessons, lecture recaps, homework guides, a data lab and practice exams.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#04060b",
+  "theme_color": "#04060b",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "This week", "short_name": "This week", "url": "./#/now", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Lecture recaps", "short_name": "Lectures", "url": "./#/lectures", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Homework 1–10", "short_name": "Homework", "url": "./#/homework", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Exoplanet explorer", "short_name": "Explorer", "url": "./#/lab/explorer", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}

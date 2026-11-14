@@ -294,6 +294,7 @@
     renderSidebar();
     renderTopbar();
     paintCounters();
+    bindInstall(main);
   }
   const secH = (t) => `<h2 class="sec-h">${t}</h2>`;
 
@@ -346,6 +347,7 @@
     const pilot = $("#pilot");
     pilot.hidden = !NAME;
     $("span", pilot).textContent = NAME;
+    $("#installBtn").hidden = !canOfferInstall();
   }
   function renderSidebar() {
     const h = location.hash || "#/";
@@ -366,6 +368,7 @@
         ${link("#/", "Home", "⌂")}
         ${link("#/schedule", "Course map", "▦", "", ["#/week/"])}
         ${link("#/lectures", "Lecture recaps", "◫", "", ["#/lecture/"])}
+        ${isStandalone() ? "" : link("#/install", "Install as an app", "⤓")}
       </div>
       <div class="nav-group"><div class="nav-h">Practice</div>
         ${link("#/homework", "Homework 1–10", "✎")}
@@ -432,6 +435,7 @@
         <div><span>Next exam</span><b>${ex ? `<a href="#/exam/${ex.id}">${esc(ex.id === "final" ? "Final" : "Midterm")}</a>` : "–"}<small>${ex ? esc(ex.when.replace("Date set by the Registrar", "TBA")) : ""}</small></b></div>
         <div><span>Explorers</span><b><span data-explorers-n>${fmtInt(explorers)}</span><small>${me ? "you're #" + fmtInt(me.n) : ""}</small></b></div>
       </div>
+      ${installBanner()}
       ${nowCard(cw)}
       <section class="howto">
         <h2 class="sec-h">How this course works</h2>
@@ -1265,6 +1269,68 @@
     });
     $("#rst").addEventListener("click", () => { if (confirm(`Erase all progress in this browser, ${NAME || "explorer"}? Your name stays. This can't be undone.`)) { P = blank(); save(); viewAbout(); } });
   }
+  /* ---------------- install as an app (PWA) ---------------- */
+  let installEvent = null; // Chrome/Edge/Android: the deferred beforeinstallprompt event
+  const isStandalone = () => matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  const isAndroid = /android/i.test(navigator.userAgent);
+  const canOfferInstall = () => !isStandalone() && (!!installEvent || isIOS);
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault(); installEvent = e; renderTopbar();
+    if (NAME && (location.hash === "#/install" || (location.hash || "#/") === "#/")) route();
+  });
+  window.addEventListener("appinstalled", () => { installEvent = null; renderTopbar(); toast(`Installed, <b>${nm()}</b>. ASTRO1 now has its own icon.`); });
+  async function promptInstall() {
+    if (!installEvent) { location.hash = "#/install"; return; }
+    installEvent.prompt();
+    const choice = await installEvent.userChoice.catch(() => null);
+    installEvent = null;
+    renderTopbar();
+    if (choice && choice.outcome === "accepted") toast(`Installing ASTRO1, <b>${nm()}</b>.`);
+  }
+  function installBanner() {
+    if (isStandalone() || store.get("astro1.installHint") === "off") return "";
+    return `<div class="install-banner"><img src="icons/icon-192.png" alt="" width="36" height="36">
+      <div><b>Install ASTRO1 as an app</b><span>Own icon on your home screen or dock, full screen, works offline.</span></div>
+      <a class="btn small primary" href="#/install" data-install>Install</a><button class="icon-btn" type="button" data-install-off aria-label="Hide this hint">×</button></div>`;
+  }
+  function bindInstall(root) {
+    $$("[data-install]", root).forEach((b) => b.addEventListener("click", (e) => { if (installEvent) { e.preventDefault(); promptInstall(); } }));
+    $$("[data-install-off]", root).forEach((b) => b.addEventListener("click", () => {
+      store.set("astro1.installHint", "off");
+      const banner = b.closest(".install-banner");
+      if (banner) banner.hidden = true;
+    }));
+  }
+  function viewInstall() {
+    const plat = isIOS ? "ios" : isAndroid ? "android" : "desktop";
+    const ways = [
+      { k: "desktop", t: "Chrome or Edge on a computer", s: ["Click the install icon at the right end of the address bar (a screen with an arrow), or the button above.", "Confirm with “Install”. ASTRO1 opens in its own window and lands in your Start menu, Dock or app launcher."] },
+      { k: "android", t: "Android (Chrome)", s: ["Tap the button above, or open the ⋮ menu and choose “Install app” (on some phones “Add to Home screen”).", "Confirm. The ASTRO1 icon appears on your home screen and in the app drawer."] },
+      { k: "ios", t: "iPhone & iPad (Safari)", s: ["Open this page in Safari.", "Tap the Share button (the square with an arrow pointing up).", "Scroll down, tap “Add to Home Screen”, then “Add”.", "Heads-up: on iPhone the installed app keeps its own storage, so it asks for your name again and starts with fresh progress. Use Export / Import on the profile page to carry progress over."] },
+      { k: "mac", t: "Safari on a Mac", s: ["File menu → “Add to Dock…”, then “Add”."] },
+    ];
+    const hero = isStandalone()
+      ? `<div class="card install-hero"><img src="icons/icon-192.png" alt="" width="64" height="64"><div><h3>Installed ✓</h3><p class="muted">You're using ASTRO1 as an app. It updates itself whenever you're online.</p></div></div>`
+      : installEvent
+        ? `<div class="card install-hero"><img src="icons/icon-192.png" alt="" width="64" height="64"><div><h3>Ready to install</h3><p class="muted">Your browser supports one-click install.</p></div><button class="btn primary" type="button" id="doInstall">Install ASTRO1</button></div>`
+        : `<div class="card install-hero"><img src="icons/icon-192.png" alt="" width="64" height="64"><div><h3>${plat === "ios" ? "Install from Safari's Share menu" : "Install from your browser's menu"}</h3><p class="muted">${plat === "ios" ? "iPhone and iPad have no one-click button; the steps are below." : "No one-click prompt in this browser right now: use the steps for your browser below. Firefox on a computer can't install web apps; use Chrome, Edge or Safari."}</p></div></div>`;
+    render(`<header class="page-h"><p class="kicker">// install</p><h1>ASTRO1 as an app</h1>
+        <p class="lede">Install the course like an app: its own icon on your home screen, dock or Start menu, a full-screen window without browser bars, and a complete offline copy of every lesson, lecture recap and figure.</p>
+        <p class="hello">// ${nm()}, ${isStandalone() ? "you're already running the installed app." : "it takes about ten seconds."}</p></header>
+      ${hero}
+      ${secH("Step by step")}
+      <div class="grid2">${ways.map((w) => `<section class="card${w.k === plat ? " here-card" : ""}"><p class="kicker" style="margin:0">// ${w.k === plat ? "your device" : w.k}</p><h3>${esc(w.t)}</h3><ol class="approach">${w.s.map((x) => `<li>${esc(x)}</li>`).join("")}</ol></section>`).join("")}</div>
+      ${secH("Good to know")}
+      <ul class="approach">
+        <li>No app store and no account: it's this website, saved as an app (a “progressive web app”).</li>
+        <li>Updates arrive by themselves: when you're online the app always loads the newest version.</li>
+        <li>Offline you keep everything except videos, the live sky forecast and the explorer counter, which need the internet.</li>
+        <li>To remove it, delete it like any other app (long-press the icon, or right-click it in the Dock or Start menu).</li>
+      </ul>
+      ${footer()}`, "Install");
+    const b = $("#doInstall"); if (b) b.addEventListener("click", promptInstall);
+  }
   function viewNotFound() { render(`<div class="card"><p class="kicker">// 404</p><h2>Lost in space, ${nm()}?</h2><p>This page doesn't exist. <a href="#/">Back to mission control</a></p></div>`, "Not found"); }
   function footer() {
     return `<footer class="foot"><p>HARVARD ASTRO1 · a personal study companion for ${esc(C.course)}, ${esc(C.institution)}. Not an official Harvard site. Videos © their creators, embedded from YouTube; OpenStax <i>Astronomy 2e</i> is CC BY 4.0; planet data from the NASA Exoplanet Archive.</p></footer>`;
@@ -1290,6 +1356,8 @@
       case "ref": return viewRef(b || "formulas");
       case "lab": return !b ? viewLab() : b === "explorer" ? viewExplorer() : b === "orbits" ? viewOrbits() : viewFlow(b);
       case "about": return viewAbout();
+      case "now": return viewWeek(currentWeek().n);
+      case "install": return viewInstall();
       default: return viewNotFound();
     }
   }
@@ -1341,6 +1409,10 @@
     if (e.key === "ArrowLeft" && links.length > 1) location.hash = links[0].getAttribute("href");
   });
   window.addEventListener("hashchange", route);
+
+  // Offline copy + installability: register the service worker (needs https or localhost).
+  if ("serviceWorker" in navigator) window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => {}); });
+  $("#installBtn").addEventListener("click", (e) => { if (installEvent) { e.preventDefault(); promptInstall(); } });
 
   // Boot: route first, then the counter in the background (count this browser once if it wasn't counted yet).
   route();

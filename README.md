@@ -91,6 +91,18 @@ python scripts/sync_content.py
 
 It copies the chapter HTML, figures and KaTeX, and regenerates `js/manifest.js` (the page list of each lesson). Quiz questions are tagged with a section number (`s: "4.4"`), so keep section numbers stable.
 
+## Install as an app (PWA)
+
+The site is a progressive web app: `manifest.webmanifest` (name, colors, icons, shortcuts) plus a service worker `sw.js` that keeps a full offline copy (~5 MB: lessons, figures, recaps, the planet snapshot). Chrome, Edge and Android show an install button (top bar, home banner, `#/install`); iPhone/iPad install via Safari → Share → Add to Home Screen, and `#/install` explains every platform. Installed apps load the newest version whenever they're online (pages and code are fetched network-first).
+
+After adding, removing or changing files, refresh the offline list and its version:
+
+```bash
+python scripts/build_sw.py
+```
+
+Icons live in `icons/` and are drawn by `scripts/make_icons.py` (same orbit motif as `favicon.svg`). On iPhone an installed app has its own storage, separate from Safari: it asks for the name again, counts as a new explorer and starts with empty progress (export/import on the profile page carries progress over).
+
 ## Hosting
 
 GitHub Pages serves the site straight from this repository's `main` branch (static, no build; `.nojekyll` switches off Jekyll): https://nikwall.github.io/harvard-astro1/
