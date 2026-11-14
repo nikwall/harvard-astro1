@@ -37,7 +37,7 @@ Then open http://localhost:5173. (Opening `index.html` straight from disk won't 
 | `js/questions/chNN.js` | The question bank, one file per chapter |
 | `data/exoplanets.json` | Snapshot of the NASA Exoplanet Archive (Planetary Systems table, `default_flag=1`, 2026-11-13) for the explorer |
 | `content/`, `figs/`, `js/manifest.js` | Lesson text and figures, copied from the study guide by `scripts/sync_content.py` |
-| `vendor/` | KaTeX, and the Geist / Geist Mono fonts (SIL Open Font License, `vendor/fonts/OFL.txt`) |
+| `vendor/` | KaTeX, and the Geist font (SIL Open Font License, `vendor/fonts/OFL.txt`), the only typeface the app uses |
 
 ## Adding slides and section links
 
@@ -99,4 +99,4 @@ The repository and the site are both public (GitHub's free plan offers Pages onl
 
 ## Sources and credits
 
-Lesson text paraphrases the course textbook and was written for the study guide; lecture recaps were written from the course's slide decks; figures were made for it from the books' data and public datasets (Gaia DR3, NASA Exoplanet Archive, SILSO). Videos are embedded from YouTube (mainly Crash Course Astronomy) and remain their creators'. OpenStax *Astronomy 2e* is CC BY 4.0. Simulations link to PhET (University of Colorado Boulder) and NAAP (University of Nebraska–Lincoln). KaTeX is MIT-licensed; Geist and Geist Mono are under the SIL Open Font License. Planet data: NASA Exoplanet Archive (Caltech/NASA). Sky forecast image: Clear Sky Chart. The quiz questions were written for this app.
+Lesson text paraphrases the course textbook and was written for the study guide; lecture recaps were written from the course's slide decks; figures were made for it from the books' data and public datasets (Gaia DR3, NASA Exoplanet Archive, SILSO). Videos are embedded from YouTube (mainly Crash Course Astronomy) and remain their creators'. OpenStax *Astronomy 2e* is CC BY 4.0. Simulations link to PhET (University of Colorado Boulder) and NAAP (University of Nebraska–Lincoln). KaTeX is MIT-licensed; Geist is under the SIL Open Font License. Planet data: NASA Exoplanet Archive (Caltech/NASA). Sky forecast image: Clear Sky Chart. The quiz questions were written for this app.

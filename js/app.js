@@ -1019,12 +1019,12 @@
       rows.forEach((r) => { const x = val(r, S.x, S.lx), y = val(r, S.y, S.ly); if (x != null && y != null) { xs.push(x); ys.push(y); } });
       const solarOK = S.sol && SOLKEY[S.x] && SOLKEY[S.y];
       if (solarOK) SOLAR.forEach((p) => { const x = S.lx ? Math.log10(p[SOLKEY[S.x]]) : p[SOLKEY[S.x]], y = S.ly ? Math.log10(p[SOLKEY[S.y]]) : p[SOLKEY[S.y]]; xs.push(x); ys.push(y); });
-      if (!xs.length) { ctx.fillStyle = css("--muted"); ctx.font = "13px " + css("--mono"); ctx.fillText("No planets with both values.", L, T + 20); pts = []; return; }
+      if (!xs.length) { ctx.fillStyle = css("--muted"); ctx.font = "13px " + css("--sans"); ctx.fillText("No planets with both values.", L, T + 20); pts = []; return; }
       const q = (arr, p) => { const s = arr.slice().sort((a, b) => a - b); return s[Math.min(s.length - 1, Math.max(0, Math.floor(p * (s.length - 1))))]; };
       let x0 = q(xs, 0), x1 = q(xs, 1), y0 = q(ys, 0), y1 = q(ys, 1);
       const px = (x1 - x0 || 1) * 0.04, py = (y1 - y0 || 1) * 0.05; x0 -= px; x1 += px; y0 -= py; y1 += py;
       const sx = (v) => L + (v - x0) / (x1 - x0) * (W - L - R), sy = (v) => H - B - (v - y0) / (y1 - y0) * (H - T - B);
-      ctx.strokeStyle = css("--hair"); ctx.lineWidth = 1; ctx.fillStyle = css("--muted"); ctx.font = "11px " + css("--mono");
+      ctx.strokeStyle = css("--hair"); ctx.lineWidth = 1; ctx.fillStyle = css("--muted"); ctx.font = "11px " + css("--sans");
       ctx.textAlign = "center"; ctx.textBaseline = "top";
       niceTicks(x0, x1, S.lx).forEach((t) => { const X = Math.round(sx(t)) + .5; ctx.beginPath(); ctx.moveTo(X, T); ctx.lineTo(X, H - B); ctx.stroke(); ctx.fillText(fmtTick(t, S.lx), X, H - B + 6); });
       ctx.textAlign = "right"; ctx.textBaseline = "middle";
@@ -1044,7 +1044,7 @@
       });
       ctx.globalAlpha = 1;
       if (solarOK) {
-        ctx.font = "11px " + css("--mono"); ctx.textAlign = "left"; ctx.textBaseline = "middle";
+        ctx.font = "11px " + css("--sans"); ctx.textAlign = "left"; ctx.textBaseline = "middle";
         const placed = [];
         SOLAR.forEach((p) => {
           const X = sx(S.lx ? Math.log10(p[SOLKEY[S.x]]) : p[SOLKEY[S.x]]), Y = sy(S.ly ? Math.log10(p[SOLKEY[S.y]]) : p[SOLKEY[S.y]]);
@@ -1201,7 +1201,7 @@
       const sxp = cx - wob * Math.cos(phase), syp = cy + wob * Math.sin(phase);
       ctx.fillStyle = "#ffc86e"; ctx.beginPath(); ctx.arc(sxp, syp, 10, 0, 6.2832); ctx.fill();
       ctx.fillStyle = css("--accent"); ctx.beginPath(); ctx.arc(px, py, 4 + Math.min(4, Math.log10(1 + st.Mj * 20)), 0, 6.2832); ctx.fill();
-      ctx.fillStyle = css("--muted"); ctx.font = "11px " + css("--mono"); ctx.textAlign = "center"; ctx.textBaseline = "alphabetic";
+      ctx.fillStyle = css("--muted"); ctx.font = "11px " + css("--sans"); ctx.textAlign = "center"; ctx.textBaseline = "alphabetic";
       ctx.fillText("observer ↓", cx, ob.y + ob.h - 6);
       // RV curve: the observer sits below the orbit; the star moves opposite to the planet, so its radial velocity is −K cos(phase) (positive = away).
       const L = rv.x + 54, Rr = rv.x + rv.w - 14, T = rv.y + 20, B = rv.y + rv.h - 30, mid = (T + B) / 2, amp = (B - T) / 2 - 8;
@@ -1246,7 +1246,7 @@
         <p>A personal, self-paced study companion for <b>${esc(C.course)}</b> (${esc(C.institution)}, ${esc(C.term)}). It is not an official course site and is not affiliated with Harvard.</p>
         <p><b>Where the content comes from.</b> The lesson text is the <i>ASTRON 1 Study & Recap Guide</i>, written for this course and paraphrasing ${esc(C.textbook)}, with worked homework, Hirshfeld's <i>Introduction to Stars and Planets</i> activities, Owocki's <i>Fundamentals of Astrophysics</i> and Pasachoff & Filippenko's <i>The Cosmos</i>. Lecture recaps were written from the course's slide decks; the slides themselves aren't reproduced. Figures were made for the guide from public datasets (Gaia, NASA Exoplanet Archive, SILSO). Videos are embedded from YouTube (mainly Crash Course Astronomy); second explanations link to OpenStax <i>Astronomy 2e</i>; simulations link to PhET and NAAP. The quiz questions were written for this app.</p>
         <p><b>The explorer counter</b> counts each browser once, the first time someone launches the course. It stores nothing but the number, on a free counter service (abacus). A private window or a second device counts again.</p>
-        <p><b>Credits.</b> Planet data: NASA Exoplanet Archive (Caltech/NASA). Sky forecast: Clear Sky Chart. Fonts: Geist and Geist Mono (SIL Open Font License). Math: KaTeX (MIT).</p>
+        <p><b>Credits.</b> Planet data: NASA Exoplanet Archive (Caltech/NASA). Sky forecast: Clear Sky Chart. Font: Geist (SIL Open Font License). Math: KaTeX (MIT).</p>
       </div>${footer()}`, "Profile");
     $("#nameForm").addEventListener("submit", (e) => {
       e.preventDefault();
