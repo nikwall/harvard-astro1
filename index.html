@@ -4,43 +4,81 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<meta name="description" content="A self-paced study course for ASTRON 1, The Big Questions in Astronomy, Harvard College (FAS), Fall 2026: lessons, videos, readings and quizzes from week 1 to the final exam.">
-<meta name="theme-color" content="#0b1633">
+<meta name="description" content="A self-paced study course for ASTRON 1, The Big Questions in Astronomy, Harvard College (FAS), Fall 2026: lesson pages, lecture recaps, homework guides, an observing and data lab, quizzes and practice exams.">
+<meta name="theme-color" content="#04060b">
 <title>Harvard ASTRO1</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="vendor/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="vendor/fonts/GeistMono-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="vendor/katex/katex.min.css">
 <link rel="stylesheet" href="css/app.css">
 <script>
-  // Apply the saved theme before first paint to avoid a flash.
-  try { var t = localStorage.getItem("astro1.theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+  // Apply the saved theme before first paint (dark is the default), and show the name gate before anything else if no name is stored yet.
+  try { var t = localStorage.getItem("astro1.theme"); if (t === "light") document.documentElement.dataset.theme = "light"; } catch (e) {}
 </script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+
+<section class="gate" id="gate" hidden aria-labelledby="gateTitle">
+  <div class="gate-stars"></div>
+  <div class="gate-panel">
+    <svg class="gate-orbit" viewBox="0 0 92 92" aria-hidden="true">
+      <circle cx="46" cy="46" r="44" fill="none" stroke="rgba(111,227,255,.18)"/>
+      <g class="ring1"><circle cx="46" cy="46" r="34" fill="none" stroke="rgba(111,227,255,.45)" stroke-dasharray="2 5"/><circle cx="80" cy="46" r="2.6" fill="#a996ff"/></g>
+      <g class="ring2"><circle cx="46" cy="46" r="22" fill="none" stroke="rgba(111,227,255,.7)"/><circle cx="46" cy="24" r="3" fill="#6fe3ff"/></g>
+      <circle cx="46" cy="46" r="7" fill="#ffc86e"/>
+    </svg>
+    <p class="kick">ASTRON 1 · Harvard College (FAS) · Fall 2026</p>
+    <h1 id="gateTitle">The Big Questions<br><b>in Astronomy.</b></h1>
+    <p>Lessons, lecture recaps, homework guides, a data lab and practice exams: the whole course, from week 1 to the final, at your own pace.</p>
+    <form id="gateForm" autocomplete="off">
+      <label for="gateName">Your first name (a made-up one is fine)</label>
+      <div class="gate-row">
+        <input id="gateName" name="name" maxlength="24" placeholder="e.g. Vera" required autocomplete="off" spellcheck="false">
+        <button type="submit">Launch →</button>
+      </div>
+      <p class="gate-err" id="gateErr" aria-live="polite"></p>
+    </form>
+    <div class="gate-foot">
+      <span class="live" id="gateCount">counting explorers…</span>
+      <span>Your name and progress stay in this browser.</span>
+    </div>
+  </div>
+</section>
+
 <header class="topbar">
   <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open course menu" aria-expanded="false">
-    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
   </button>
   <a class="brand" href="#/">
-    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#16275a"/><ellipse cx="16" cy="16" rx="13" ry="4.2" fill="none" stroke="#f4c542" stroke-width="1.6" transform="rotate(-24 16 16)"/><circle cx="16" cy="16" r="5.2" fill="#f4c542"/><circle cx="25.5" cy="10.2" r="1.6" fill="#cfe0ff"/></svg>
-    <span class="brand-name">Harvard <b>ASTRO1</b></span>
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.5" fill="none" stroke="currentColor" stroke-opacity=".25"/><ellipse cx="16" cy="16" rx="13" ry="4.6" fill="none" stroke="#6fe3ff" stroke-width="1.2" transform="rotate(-28 16 16)"/><circle cx="16" cy="16" r="4.2" fill="#ffc86e"/><circle cx="26.6" cy="10.3" r="1.7" fill="#6fe3ff"/></svg>
+    <span class="brand-name">ASTRO<b>1</b></span>
+    <span class="brand-sub">Harvard College · FAS</span>
   </a>
-  <div class="topbar-progress" id="topProgress" title="Course progress"></div>
-  <button class="icon-btn" id="themeBtn" aria-label="Switch light or dark theme">
-    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="currentColor"/></svg>
-  </button>
+  <div class="top-right">
+    <div class="topbar-progress" id="topProgress" title="Course progress"></div>
+    <a class="pilot" id="pilot" href="#/about" title="Your profile"><i></i><span></span></a>
+    <button class="icon-btn" id="themeBtn" aria-label="Switch light or dark theme">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </button>
+  </div>
 </header>
 <div class="shell">
   <nav class="sidebar" id="sidebar" aria-label="Course outline"></nav>
   <div class="scrim" id="scrim"></div>
   <main id="main" tabindex="-1"></main>
 </div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
 <script src="vendor/katex/katex.min.js" defer></script>
 <script src="vendor/katex/auto-render.min.js" defer></script>
 <script src="js/course.js" defer></script>
 <script src="js/manifest.js" defer></script>
 <script src="js/materials.js" defer></script>
 <script src="js/media.js" defer></script>
+<script src="js/lectures.js" defer></script>
+<script src="js/lab.js" defer></script>
 <script src="js/questions/ch01.js" defer></script>
 <script src="js/questions/ch02.js" defer></script>
 <script src="js/questions/ch03.js" defer></script>

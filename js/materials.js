@@ -8,7 +8,7 @@
         S6: [{ title: "Transit worksheet", url: "https://…" }],
    3. Commit and push; the site updates by itself.
 
-   Everything listed here shows up on the week page, on the lessons tied to that lecture, and under "Slides & materials". */
+   Everything listed here shows up on the lecture recap page (#/lecture/L5), on the week page and on the lessons tied to that lecture. */
 window.MATERIALS = {
   // Lectures
   L1: [], L2: [], L3: [], L4: [], L5: [], L6: [], L7: [], L8: [], L9: [], L10: [], L11: [], L12: [],
